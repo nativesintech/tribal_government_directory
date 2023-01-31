@@ -1,0 +1,4405 @@
+[
+  {
+    "Nation": "Absentee-Shawnee Tribe of Indians of Oklahoma",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "2025 S. Gordon Cooper Drive, Shawnee, OK74801-9005",
+    "Website": "http://www.astribe.com"
+  },
+  {
+    "Nation": "Agdaagux Tribe of King Cove",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 249, King Cove, AK99612-0249",
+    "Website": ""
+  },
+  {
+    "Nation": "Agua Caliente Band of Cahuilla Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "5401 Dinah Shore Dr, Palm Springs, CA92264-5970",
+    "Website": "http://www.aguacaliente.org"
+  },
+  {
+    "Nation": "Ak-Chin Indian Community",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "42507 W Peters and Nall Road, Maricopa, AZ85138-3940",
+    "Website": "http://www.ak-chin.nsn.us"
+  },
+  {
+    "Nation": "Akiachak Native Community (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 70, Akiachak, AK99551-0070",
+    "Website": ""
+  },
+  {
+    "Nation": "Akiak Native Community (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 52127, Akiak, AK99552-0127",
+    "Website": ""
+  },
+  {
+    "Nation": "Alabama-Coushatta Tribe of Texas",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "571 State Park Road 56, Livingston, TX77351-4540",
+    "Website": "http://www.alabama-coushatta.com"
+  },
+  {
+    "Nation": "Alabama-Quassarte Tribal Town",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "PO Box 187, Wetumka, OK74883-0187",
+    "Website": "http://www.alabama-quassarte.org"
+  },
+  {
+    "Nation": "Alatna Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 70, Allakaket, AK99720-0070",
+    "Website": ""
+  },
+  {
+    "Nation": "Aleut Community of St. Paul Island",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 86, Saint Paul Island, AK99660-0086",
+    "Website": "http://www.apiai.org/tribes/st-paul/"
+  },
+  {
+    "Nation": "Algaaciq Native Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 48, St. Mary's, AK99658",
+    "Website": ""
+  },
+  {
+    "Nation": "Allakaket Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 30, Allakaket, AK99720-0050",
+    "Website": ""
+  },
+  {
+    "Nation": "Alturas Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 340, Alturas, CA96101-0340",
+    "Website": ""
+  },
+  {
+    "Nation": "Angoon Community Association",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 328, Angoon, AK99820-0328",
+    "Website": ""
+  },
+  {
+    "Nation": "Aniak Traditional Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 349, Aniak, AK99557-0349",
+    "Website": ""
+  },
+  {
+    "Nation": "Anvik Traditional Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 10, Anvik, AK99558-0010",
+    "Website": "http://anviktribalcouncil.com"
+  },
+  {
+    "Nation": "Apache Tribe of Oklahoma",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 1330, Anadarko, OK73005-1220",
+    "Website": "http://www.apachetribe.org"
+  },
+  {
+    "Nation": "Arctic Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 22079, Arctic Village, AK99722",
+    "Website": ""
+  },
+  {
+    "Nation": "Aroostook Band of Micmacs",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "7 Northern Rd, Presque Isle, ME04769-2027",
+    "Website": "http://micmac-nsn.gov/"
+  },
+  {
+    "Nation": "Asa'carsarmiut Tribe",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 32249, Mountain Village, AK99632-0249",
+    "Website": ""
+  },
+  {
+    "Nation": "Atmautluak Traditional Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 6568, Atmautluak, AK99559-6568",
+    "Website": ""
+  },
+  {
+    "Nation": "Atqasuk Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 91108, Atqasuk, AK99791-0108",
+    "Website": ""
+  },
+  {
+    "Nation": "Augustine Band of Cahuilla Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 846, Coachella, CA92236-0846",
+    "Website": "http://www.augustinetribe.org"
+  },
+  {
+    "Nation": "Bad River Band of the Lake Superior Tribe",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 39, Odanah, WI54861-0039",
+    "Website": "http://www.badriver-nsn.gov"
+  },
+  {
+    "Nation": "Barona Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "1095 Barona Rd, Lakeside, CA92040-1541",
+    "Website": "http://www.baronatribe.org"
+  },
+  {
+    "Nation": "Battle Mountain Band (Te-Moak Tribe of Western Shoshone Indians of Nevada",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "37 Mountain View Drive, Battle Mountain, NV89820-3611",
+    "Website": "http://www.temoaktribe.com"
+  },
+  {
+    "Nation": "Bay Mills Indian Community of Michigan",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "12140 W Lakeshore Drive, Brimley, MI49715-9319",
+    "Website": "http://www.baymills.org"
+  },
+  {
+    "Nation": "Bear River Band of Rohnerville Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "266 Keisner Rd, Loleta, CA95551-9646",
+    "Website": "http://www.brb-nsn.gov"
+  },
+  {
+    "Nation": "Beaver Village Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 24029, Beaver, AK99724-0029",
+    "Website": ""
+  },
+  {
+    "Nation": "Benton Paiute - U-tu Utu Gwaitu Paiute Tribe",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "25669 Highway 6, PMB 1, Benton, CA93512-9703",
+    "Website": "http://www.bentonpaiutereservation.org"
+  },
+  {
+    "Nation": "Berry Creek Rancheria of Maidu Indians of California",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "5 Tyme Way, Oroville, CA95966-9115",
+    "Website": ""
+  },
+  {
+    "Nation": "Big Lagoon Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 3060, Trinidad, CA95570-3060",
+    "Website": ""
+  },
+  {
+    "Nation": "Big Pine Paiute Tribe of the Owens Valley",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 700, Big Pine, CA93513-0700",
+    "Website": "http://www.bigpinepaiute.org"
+  },
+  {
+    "Nation": "Big Sandy Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 337, Auberry, CA93602-0337",
+    "Website": "http://www.bigsandyrancheria.com"
+  },
+  {
+    "Nation": "Big Valley Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "2726 Mission Rancheria Rd, Lakeport, CA95453-9612",
+    "Website": "http://www.bvrancheria.com"
+  },
+  {
+    "Nation": "Birch Creek Tribal Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 71372, Fort Yukon, AK99701",
+    "Website": ""
+  },
+  {
+    "Nation": "Bishop Paiute Tribe",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "50 N Tu Su Ln, Bishop, CA93514-8058",
+    "Website": "http://www.bishoppaiutetribe.com"
+  },
+  {
+    "Nation": "Blackfeet Nation",
+    "Region": "Rocky Mountain",
+    "Recognition": "Federal",
+    "Address": "PO Box 850, Browning, MT59417-0850",
+    "Website": "http://www.blackfeetnation.com"
+  },
+  {
+    "Nation": "Blue Lake Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 428, Blue Lake, CA95525-0314",
+    "Website": "http://www.bluelakerancheria-nsn.gov"
+  },
+  {
+    "Nation": "Bois Forte Band of Chippewa",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "15344 Lakeshore Dr., Nett Lake, MN55772-0016",
+    "Website": "http://www.boisforte.com"
+  },
+  {
+    "Nation": "Bridgeport Paiute Indian Colony",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 37, Bridgeport, CA93517-0037",
+    "Website": "http://www.bridgeportindiancolony.com"
+  },
+  {
+    "Nation": "Buena Vista Rancheria of Me-Wuk Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "1418 20th Street, Suite 200, Sacramento, CA95811-5206",
+    "Website": "http://bvrmewuk.wixsite.com/me-wuk"
+  },
+  {
+    "Nation": "Burns Paiute Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "100 Pasigo Street, Burns, OR97720-2442",
+    "Website": "http://www.burnspaiute-nsn.gov"
+  },
+  {
+    "Nation": "Cabazon Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "84-245 Indio Springs Parkway, Indio, CA92203-",
+    "Website": ""
+  },
+  {
+    "Nation": "Cachil Dehe Band of Wintun Indians of the Colusa Indian Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "3730 State Highway 45, Colusa, CA95932-4022",
+    "Website": "http://www.colusa-nsn.gov"
+  },
+  {
+    "Nation": "Caddo Indian Tribe of Oklahoma",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 487, Binger, OK73009-0487",
+    "Website": "http://www.caddonation-nsn.gov"
+  },
+  {
+    "Nation": "Cahto Tribe of the Laytonville Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 1239, Laytonville, CA95454-1239",
+    "Website": "http://www.cahto.org"
+  },
+  {
+    "Nation": "Cahuilla Band of Mission Indians of the Cahuilla Reservation",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 391760, Anza, CA92539-1760",
+    "Website": "http://cahuilla.net/index.html"
+  },
+  {
+    "Nation": "California Valley Miwok Tribe",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "14807 Avenida Central, LaGrange, CA95329-9400",
+    "Website": "http://californiavalleymiwok.us"
+  },
+  {
+    "Nation": "Campo Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "36190 Church Rd Ste 1, Campo, CA91906-2732",
+    "Website": "http://www.campo-nsn.gov"
+  },
+  {
+    "Nation": "Carson Colony (Washoe Tribes of Nevada & California)",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "2900 South Curry Street, Carson City, NV89703",
+    "Website": "https://www.washoetribe.us"
+  },
+  {
+    "Nation": "Catawba Indian Nation",
+    "Region": "Southeast",
+    "Recognition": "Federal",
+    "Address": "996 Avenue of Nations, Rock Hill, SC",
+    "Website": "http://www.catawbaindian.net"
+  },
+  {
+    "Nation": "Cayuga Nation of Indians",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "PO Box 803, Seneca Falls , NY13148",
+    "Website": "http://www.cayuganation-nsn.gov"
+  },
+  {
+    "Nation": "Cedarville Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "300 W 1st St, Alturas, CA96101-3905",
+    "Website": "http://www.citlink.net/~cedranch/Cedarville_Rancheria/Welcome.html"
+  },
+  {
+    "Nation": "Central Council Tlingit & Haida Indian Tribes of Alaska",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "320 W Willoughby Ave Ste 300, Juneau, AK99801-1772",
+    "Website": "http://www.ccthita.org"
+  },
+  {
+    "Nation": "Chalkyitsik Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 57, Chalkyitsik, AK99788-0057",
+    "Website": ""
+  },
+  {
+    "Nation": "Chappaquiddick Tribe of the Wampanoag Nation",
+    "Region": "Northeast",
+    "Recognition": "State",
+    "Address": "P.O. Box 2659, Edgartown , MA02539",
+    "Website": "https://chappaquiddickwampanoag.org/"
+  },
+  {
+    "Nation": "Cheesh-Na Tribal Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "HC1 Box 217, Gakona, AK99586-9707",
+    "Website": ""
+  },
+  {
+    "Nation": "Chemehuevi Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 1976, Havsau Lake, CA92363",
+    "Website": "http://www.chemehuevi.net"
+  },
+  {
+    "Nation": "Cher-Ae Heights Indian Community of the Trinidad Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 630, Trinidad, CA95570-0630",
+    "Website": "http://www.trinidad-rancheria.org"
+  },
+  {
+    "Nation": "Cher-O-Creek Intra Tribal Indians",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "1315 Northfield Circle, Dothan, AL36303",
+    "Website": ""
+  },
+  {
+    "Nation": "Cheroenhaka (Nottoway) Indian Tribe",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "P.O. Box 397, Courtland, VA23837",
+    "Website": "https://cheroenhaka-nottoway.org/home.htm"
+  },
+  {
+    "Nation": "Cherokee Nation",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "PO Box 948, Tahlequah, OK74465-0948",
+    "Website": "http://www.cherokee.org"
+  },
+  {
+    "Nation": "Cherokee Tribe of Northeast Alabama",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "PO Box 876, Pinson , AL35126",
+    "Website": "https://cherokeetribeofnortheastalabama.org/"
+  },
+  {
+    "Nation": "Cherokees of Southeast Alabama",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "PO Box 36302, Dothan, AL",
+    "Website": ""
+  },
+  {
+    "Nation": "Chevak Native Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 140, Chevak, AK99563-0140",
+    "Website": ""
+  },
+  {
+    "Nation": "Cheyenne Arapaho Tribes of Oklahoma",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 167 - 100 Red Moon Circle, Concho, OK73022-0038",
+    "Website": "https://www.c-a-tribes.org/"
+  },
+  {
+    "Nation": "Cheyenne River Sioux Tribe",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 590, Eagle Butte, SD57625-0590",
+    "Website": "http://www.sioux.org"
+  },
+  {
+    "Nation": "Chickahominy Indian Tribe",
+    "Region": "Northeast",
+    "Recognition": "State",
+    "Address": "8200 Lott Cary Road, Providence Forge , VA23030",
+    "Website": "http://www.chickahominytribe.org"
+  },
+  {
+    "Nation": "Chickaloon Native Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 1105, Chickaloon, AK99674-1105",
+    "Website": "http://www.chickaloon.org"
+  },
+  {
+    "Nation": "Chickasaw Nation",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "PO Box 1548, Ada, OK74821-1548",
+    "Website": "http://www.chickasaw.net"
+  },
+  {
+    "Nation": "Chicken Ranch Rancheria of Me-Wuk Indians of California",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 1159, Jamestown, CA95327-1159",
+    "Website": ""
+  },
+  {
+    "Nation": "Chignik Bay Tribal Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "P.O. Box 11, Chignik Bay, AK99564",
+    "Website": ""
+  },
+  {
+    "Nation": "Chignik Lake Village Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 33, Chignik Lake, AK99548",
+    "Website": "http://www.chigniklagoon.net"
+  },
+  {
+    "Nation": "Chilkat Indian Village (Klukwan)(IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 2207, Haines, AK99827-0210",
+    "Website": "http://www.chilkatindianvillage.org"
+  },
+  {
+    "Nation": "Chilkoot Indian Association (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 490, Haines, AK99827-0490",
+    "Website": "http://chilkoot-nsn.gov"
+  },
+  {
+    "Nation": "Chinik Eskimo Community (aka Golovin)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 62020, Golovin, AK99762-6020",
+    "Website": "http://www.kawerak.org"
+  },
+  {
+    "Nation": "Chinook Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "State",
+    "Address": "PO Box 368, Bay Center, WA98527-0368",
+    "Website": "http://www.chinooknation.org"
+  },
+  {
+    "Nation": "Chippewa Cree Tribe of the Rocky Boy's Reservation",
+    "Region": "Rocky Mountain",
+    "Recognition": "Federal",
+    "Address": "96 Clinic Road, Box Elder, MT59521-8849",
+    "Website": "https://tribalnations.mt.gov/chippewacree"
+  },
+  {
+    "Nation": "Chitimacha Indian Tribe of Louisiana",
+    "Region": "Southeast",
+    "Recognition": "Federal",
+    "Address": "PO Box 661, Charenton, LA70523-0661",
+    "Website": "http://www.chitimacha.gov"
+  },
+  {
+    "Nation": "Chitina Traditional Indian Village Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 31, Chitina, AK99566-0031",
+    "Website": ""
+  },
+  {
+    "Nation": "Choctaw Nation of Oklahoma",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "PO Box 1210, Durant, OK74702-1210",
+    "Website": "http://www.choctawnation.com"
+  },
+  {
+    "Nation": "Choctaw-Apache Community of Ebarb",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "PO Box 1428, Zwolle, LA71486-1428",
+    "Website": "http://www.choctaw-apache.org"
+  },
+  {
+    "Nation": "Chuloonawick Native Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 245, Emmonak, AK99581-0245",
+    "Website": "http://www.chuloonawick.org"
+  },
+  {
+    "Nation": "Circle Native Community (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 89, Circle, AK99733-0089",
+    "Website": ""
+  },
+  {
+    "Nation": "Citizen Potawatomi Nation",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "1601 Gordon Cooper Drive, Shawnee, OK74801-9002",
+    "Website": "http://www.potawatomi.org"
+  },
+  {
+    "Nation": "Cloverdale Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "555 S Cloverdale Blvd Ste A, Cloverdale, CA95425-4020",
+    "Website": "http://www.cloverdalerancheria.com"
+  },
+  {
+    "Nation": "Cocopah Tribe of Arizona",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "County 15th & Avenue G, Somerton, AZ85350",
+    "Website": "http://www.cocopah.com"
+  },
+  {
+    "Nation": "Coeur d'Alene Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 408, Plummer, ID83851-0408",
+    "Website": "http://www.cdatribe-nsn.gov"
+  },
+  {
+    "Nation": "Coharie Intra-Tribal Council, Inc.",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "7531 N US 421 Hwy, Clinton, NC28328-7971",
+    "Website": "http://www.coharietribe.org"
+  },
+  {
+    "Nation": "Cold Springs Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 209, Tollhouse, CA93667-0209",
+    "Website": ""
+  },
+  {
+    "Nation": "Colorado River Indian Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "26600 Mohave Road, Parker, AZ85344-7737",
+    "Website": "http://www.crit-nsn.gov"
+  },
+  {
+    "Nation": "Comanche Nation",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "584 NW Bingo Road, Lawton, OK73507",
+    "Website": "http://www.comanchenation.com"
+  },
+  {
+    "Nation": "Confederated Salish & Kootenai Tribes of the Flathead Nation",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 278, Pablo, MT59855-0278",
+    "Website": "http://www.cskt.org"
+  },
+  {
+    "Nation": "Confederated Tribes and Bands of the Yakama Nation",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 151, Toppenish, WA98948-0151",
+    "Website": "http://www.yakamanation-nsn.gov"
+  },
+  {
+    "Nation": "Confederated Tribes of Chehalis Reservation",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 536, Oakville, WA98568-0536",
+    "Website": "http://www.chehalistribe.org"
+  },
+  {
+    "Nation": "Confederated Tribes of Colville Reservation",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 150, Nespelem, WA99155-0150",
+    "Website": "http://www.colvilletribes.com"
+  },
+  {
+    "Nation": "Confederated Tribes of Coos, Lower Umpqua and Siuslaw Indians",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "1245 Fulton Avenue, Coos Bay, OR97420-2895",
+    "Website": "http://www.ctclusi.org"
+  },
+  {
+    "Nation": "Confederated Tribes of Grand Ronde Community of Oregon",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "9615 Grand Ronde Road, Grand Ronde, OR97347-9712",
+    "Website": "http://www.grandronde.org"
+  },
+  {
+    "Nation": "Confederated Tribes of Siletz Reservation",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 549, Siletz, OR97380-0549",
+    "Website": "http://www.ctsi.nsn.us"
+  },
+  {
+    "Nation": "Confederated Tribes of the Goshute Reservation",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 6104, Ibapah, UT84034",
+    "Website": "http://www.goshutetribe.com"
+  },
+  {
+    "Nation": "Confederated Tribes of the Umatilla Indian Reservation",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "46411 Timine Way, Pendleton, OR97801-9467",
+    "Website": "http://www.umatilla.nsn.us"
+  },
+  {
+    "Nation": "Confederated Tribes of Warm Springs Reservation of Oregon",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box C/1233 Veteran's Street, Warm Springs, OR97761-3001",
+    "Website": "http://warmsprings-nsn.gov/"
+  },
+  {
+    "Nation": "Coquille Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "3050 Tremont Street, North Bend, OR97459-3059",
+    "Website": "http://www.coquilletribe.org"
+  },
+  {
+    "Nation": "Cortina Band of Wintun Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 1630, Williams, CA95987-1630",
+    "Website": ""
+  },
+  {
+    "Nation": "Coushatta Indian Tribe of Louisiana",
+    "Region": "Southeast",
+    "Recognition": "Federal",
+    "Address": "PO Box 10, Elton, LA70532-0818",
+    "Website": "http://www.koasatiheritage.org"
+  },
+  {
+    "Nation": "Cow Creek Band of Umpqua Tribe of Indians",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "2371 NE Stephens Street,  Suite 100, Roseburg, OR97470-1338",
+    "Website": "http://www.cowcreek.com"
+  },
+  {
+    "Nation": "Cowlitz Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 2547, Longview, WA98632-8594",
+    "Website": "http://www.cowlitz.org"
+  },
+  {
+    "Nation": "Coyote Valley Band of Pomo Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 39, Redwood Valley, CA95470-0039",
+    "Website": "http://coyotevalleytribe.org"
+  },
+  {
+    "Nation": "Craig Community Association (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 828, Craig, AK99921-0828",
+    "Website": "http://www.craigtribe.org"
+  },
+  {
+    "Nation": "Crow Creek Sioux Tribe",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 50, Fort Thompson, SD57339-0050",
+    "Website": "http://sdtribalrelations.com"
+  },
+  {
+    "Nation": "Crow Nation",
+    "Region": "Rocky Mountain",
+    "Recognition": "Federal",
+    "Address": "PO Box 159 - Bacheeitche Avenue, Crow Agency, MT59022-0159",
+    "Website": "http://www.crow-nsn.gov"
+  },
+  {
+    "Nation": "Curyung Tribal Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 216, Dillingham, AK99576-0216",
+    "Website": "http://www.curyungtribe.com"
+  },
+  {
+    "Nation": "Delaware Nation",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 825, Anadarko, OK73005-0825",
+    "Website": "http://www.delawarenation.com"
+  },
+  {
+    "Nation": "Delaware Tribe of Indians",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "5100 Tuxedo Boulevard, Bartlesville, OK74006-",
+    "Website": "http://www.delawaretribe.org"
+  },
+  {
+    "Nation": "Douglas Indian Association (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "811 W. 12th Street, Juneau, AK99801-1854",
+    "Website": ""
+  },
+  {
+    "Nation": "Dresslerville Colony (Washoe Tribes of Nevada & California)",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "919 Highwway 395 South, Gardnerville, NV89410",
+    "Website": "https://www.washoetribe.us/contents/"
+  },
+  {
+    "Nation": "Dry Creek Rancheria Band of Pomo Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 607, Geyserville, CA95441-0607",
+    "Website": "http://www.drycreekrancheria.com"
+  },
+  {
+    "Nation": "Duckwater Shoshone Tribe of the Duckwater Reservation",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 140068, Duckwater, NV89314-0068",
+    "Website": "http://www.duckwatertribe.org"
+  },
+  {
+    "Nation": "Eastern Band of Cherokee Indians",
+    "Region": "Southeast",
+    "Recognition": "Federal",
+    "Address": "PO Box 455, Cherokee, NC28719-0455",
+    "Website": "https://ebci.com/"
+  },
+  {
+    "Nation": "Eastern Pequot Tribal Nation",
+    "Region": "Northeast",
+    "Recognition": "State",
+    "Address": "391 Norwich- Westerly Road, North Stonington , CT06359",
+    "Website": ""
+  },
+  {
+    "Nation": "Eastern Shawnee Tribe of Oklahoma",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "12755 S 705 Rd, Wyandotte, OK74370-3148",
+    "Website": "https://estoo-nsn.gov/"
+  },
+  {
+    "Nation": "Eastern Shoshone Tribe of Wind River Indian Reservation",
+    "Region": "Rocky Mountain",
+    "Recognition": "Federal",
+    "Address": "PO Box 538, Fort Washakie, WY82514-0538",
+    "Website": "https://easternshoshone.org/"
+  },
+  {
+    "Nation": "Echota Cherokee Tribe of Alabama",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "P.O. Box 479, Falkville , AL35622",
+    "Website": "https://echotacherokee.org/index.html"
+  },
+  {
+    "Nation": "Edzeno' Native Village Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 9105, Nikolai, AK99691-0005",
+    "Website": ""
+  },
+  {
+    "Nation": "Egegik Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 29, Egegik, AK99579-0029",
+    "Website": ""
+  },
+  {
+    "Nation": "Eklutna Native Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "26339 Eklutna Village Road, Chugiak, AK99567-6339",
+    "Website": "http://eklutna-nsn.gov"
+  },
+  {
+    "Nation": "Ekwok Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 70, Ekwok, AK99580-0070",
+    "Website": ""
+  },
+  {
+    "Nation": "Elem Indian Colony",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 757, Lower Lake, CA95457",
+    "Website": "http://www.elemindiancolony.org/home"
+  },
+  {
+    "Nation": "Elk Valley Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "2332 Howland Hill Road, Crescent City, CA95531-9238",
+    "Website": "http://www.elk-valley.com"
+  },
+  {
+    "Nation": "Elko Band Council (Te-Moak Tribe of Western Shoshone Indians of Nevada)",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "1745 Silver Eagle Drive, Elko, NV89801-5085",
+    "Website": "http://www.elkobandcouncil.com"
+  },
+  {
+    "Nation": "Ely Shoshone Tribe of Nevada",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "16 Shoshone Circle, Ely, NV89301-2055",
+    "Website": ""
+  },
+  {
+    "Nation": "Emmonak Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 126, Emmonak, AK99581-0126",
+    "Website": ""
+  },
+  {
+    "Nation": "Enterprise Rancheria Estom Yumeka Maidu Tribe",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "2133 Monte Vista Ave, Oroville, CA95966-6968",
+    "Website": "http://www.enterpriserancheria.org"
+  },
+  {
+    "Nation": "Evansville Village (aka Bettles Field)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 26087, Bettles Field, AK99726-0087",
+    "Website": ""
+  },
+  {
+    "Nation": "Ewiiaapaayp Band of Kumeyaay Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "4054 Willows Road, Alpine, CA91901-1620",
+    "Website": "http://www.sctca.net/ewiiaapaayp-band-kumeyaay-indians"
+  },
+  {
+    "Nation": "Federated Indians of Graton Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "6400 Redwood Drive, Suite 300, Rohnert Park, CA94928-2341",
+    "Website": "http://www.gratonrancheria.com"
+  },
+  {
+    "Nation": "Flandreau Santee Sioux Tribe",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "603 W, Broad Avenue/P.O. Box 283, Flandreau, SD57028-0283",
+    "Website": "http://www.santeesioux.com"
+  },
+  {
+    "Nation": "Fond du Lac Reservation Business Committee",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "1720 Big Lake Road, Cloquet, MN55720-9702",
+    "Website": "http://www.fdlrez.com"
+  },
+  {
+    "Nation": "Forest County Potawatomi Community",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 340, Crandon, WI54520-0340",
+    "Website": "http://www.fcpotawatomi.com"
+  },
+  {
+    "Nation": "Fort Belknap Tribe",
+    "Region": "Rocky Mountain",
+    "Recognition": "Federal",
+    "Address": "656 Agency Main Street, Harlem, MT59526-9455",
+    "Website": "https://ftbelknap.org/"
+  },
+  {
+    "Nation": "Fort Bidwell Paiute Indian Reservation",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 129, Fort Bidwell, CA96112-0129",
+    "Website": ""
+  },
+  {
+    "Nation": "Fort Independence Indian Reservation",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 67, Independence, CA93526-0067",
+    "Website": "http://www.fortindependence.com"
+  },
+  {
+    "Nation": "Fort McDermitt Paiute and Shoshone Tribes",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 457, Mc Dermitt, NV89421-0457",
+    "Website": ""
+  },
+  {
+    "Nation": "Fort McDowell Yavapai Nation",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 17779, Fountain Hills, AZ85269-7779",
+    "Website": "http://www.fmyn.org"
+  },
+  {
+    "Nation": "Fort Mojave Indian Tribe of Arizona, California & Nevada",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "500 Merriman Avenue, Needles, CA92363-2229",
+    "Website": "http://www.mojaveindiantribe.com"
+  },
+  {
+    "Nation": "Fort Peck Tribes of Assiniboine and Sioux Tribes",
+    "Region": "Rocky Mountain",
+    "Recognition": "Federal",
+    "Address": "PO Box 1027, Poplar, MT59255-1027",
+    "Website": "http://www.fortpecktribes.org"
+  },
+  {
+    "Nation": "Fort Sill Apache Tribe of Oklahoma",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "43187 US HIGHWAY 281, Apache, OK73006-8038",
+    "Website": "http://fortsillapache-nsn.gov"
+  },
+  {
+    "Nation": "Four Winds Tribe, Louisiana Cherokee",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "PO Box 453, Rosepine , LA70659",
+    "Website": "https://www.fourwindscherokee.com/"
+  },
+  {
+    "Nation": "Galena Village aka Louden Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 244, Galena, AK99741-0244",
+    "Website": ""
+  },
+  {
+    "Nation": "Georgia Tribe of Eastern Cherokee",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "P.O. Box 1915, Cumming, GA30028",
+    "Website": "http://www.georgiatribeofeasterncherokee.com"
+  },
+  {
+    "Nation": "Gila River Indian Community",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 97, Sacaton, AZ85147-0001",
+    "Website": "http://www.gilariver.org"
+  },
+  {
+    "Nation": "Grand Portage Reservation Tribal Council",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 428, Grand Portage, MN55605-0428",
+    "Website": "http://www.grandportage.com"
+  },
+  {
+    "Nation": "Grand Traverse Band of Ottawa and Chippewa Indians",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "2605 NW  Bayshore Drive, Peshawbestown, MI49682-9637",
+    "Website": "http://www.gtbindians.org"
+  },
+  {
+    "Nation": "Greenville Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 279, Greenville, CA95947-0279",
+    "Website": "http://www.greenvillerancheria.com"
+  },
+  {
+    "Nation": "Grindstone Indian Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 63, Elk Creek, CA95939-0063",
+    "Website": ""
+  },
+  {
+    "Nation": "Guidiville Indian Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 339, Talmage, CA95481-0339",
+    "Website": ""
+  },
+  {
+    "Nation": "Gulkana Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 254, Gulkana,, AK99586-0254",
+    "Website": ""
+  },
+  {
+    "Nation": "Gwichyaa Zhee Gwichi'in Tribal Government - Native Village of Fort Yukon (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 126, Fort Yukon, AK99740-0126",
+    "Website": "http://www.fortyukon.org"
+  },
+  {
+    "Nation": "Habematolel Pomo of Upper Lake",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 516, Upper Lake, CA95485-0516",
+    "Website": "http://www.upperlakepomo.com"
+  },
+  {
+    "Nation": "Haliwa-Saponi Indian Tribe",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "PO Box 99, Hollister, NC27844-0099",
+    "Website": "http://www.haliwa-saponi.com"
+  },
+  {
+    "Nation": "Hannahville Indian Community of Michigan",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "N 14911 Hannahville B1 Road, Wilson, MI49896",
+    "Website": "http://www.hannahville.net"
+  },
+  {
+    "Nation": "Havasupai Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 10, Supai, AZ86435-0010",
+    "Website": "http://www.havasupaitribe.com"
+  },
+  {
+    "Nation": "Herring Pond Wampanoag Tribe",
+    "Region": "Northeast",
+    "Recognition": "State",
+    "Address": "128 Herring Pond Road, Plymouth, MA02360",
+    "Website": "http://www.herringpondtribe.org/"
+  },
+  {
+    "Nation": "Ho-Chunk Nation",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 667, Black River Falls, WI54615-0667",
+    "Website": "http://www.ho-chunknation.com"
+  },
+  {
+    "Nation": "Hoh Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 2196, Forks, WA98331-2196",
+    "Website": "http://hohtribe-nsn.org"
+  },
+  {
+    "Nation": "Holy Cross Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 89, Holy Cross, AK99602-0089",
+    "Website": ""
+  },
+  {
+    "Nation": "Hoonah Indian Association (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 602, Hoonah, AK99829-0602",
+    "Website": ""
+  },
+  {
+    "Nation": "Hoopa Valley Tribe",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 1348, Hoopa, CA95546-1348",
+    "Website": "http://www.hoopa-nsn.gov"
+  },
+  {
+    "Nation": "Hopi Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 123, Kykotsmovi, AZ86039-0123",
+    "Website": "http://www.hopi.nsn.us"
+  },
+  {
+    "Nation": "Hopland Band of Pomo Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "3000 Shanel Road, Hopland, CA95449-9809",
+    "Website": "http://www.hoplandtribe.com"
+  },
+  {
+    "Nation": "Houlton Band of Maliseet Indians",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "88 Bell Rd, Littleton, ME04730-6704",
+    "Website": "http://www.maliseets.com"
+  },
+  {
+    "Nation": "Hualapai Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 179, Peach Springs, AZ86434-0179",
+    "Website": "http://www.hualapai-nsn.gov"
+  },
+  {
+    "Nation": "Hughes Village - Hodotl'eekkaakk'e Tribe",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 45029, Hughes, AK99745-0029",
+    "Website": ""
+  },
+  {
+    "Nation": "Huslia Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 70, Huslia, AK99746-0070",
+    "Website": ""
+  },
+  {
+    "Nation": "Hydaburg Cooperative Association (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 349, Hydaburg, AK99922-0349",
+    "Website": "http://hydaburgtribe.org"
+  },
+  {
+    "Nation": "Igiugig Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 4008, Igiugig, AK99613-4008",
+    "Website": "http://www.igiugig.com"
+  },
+  {
+    "Nation": "Iipay Nation of Santa Ysabel Band",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 130, Santa Ysabel, CA92070-0130",
+    "Website": "www.iipaynation-nsn.com"
+  },
+  {
+    "Nation": "Inaja-Cosmit Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "2005 S Escondido Boulevard, Escondido, CA92025-8207",
+    "Website": ""
+  },
+  {
+    "Nation": "Inupiat Community of the Arctic Slope (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 934, Barrow, AK99723-0934",
+    "Website": "http://inupiatgov.com"
+  },
+  {
+    "Nation": "Ione Band of Miwok Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 699, Plymouth, CA95669-0699",
+    "Website": "http://www.ionemiwok.org"
+  },
+  {
+    "Nation": "Iowa Tribe of Kansas & Nebraska",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "3345 Thrasher Road, White Cloud, KS66094-4028",
+    "Website": "http://iowatribeofkansasnebraska.com/"
+  },
+  {
+    "Nation": "Iowa Tribe of Oklahoma",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "335588 E 750 Road, Perkins, OK74059-3268",
+    "Website": "http://www.iowanation.org"
+  },
+  {
+    "Nation": "Iqurmiut Traditonal Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 09, Russian Mission, AK99657-0009",
+    "Website": ""
+  },
+  {
+    "Nation": "Ivanoff Bay Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "7926 Old Seward Highway, Suite B-5, Anchorage, AK99518-3263",
+    "Website": "http://ivanofbaytribe.org"
+  },
+  {
+    "Nation": "Jackson Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 1090, Jackson, CA95642-1090",
+    "Website": ""
+  },
+  {
+    "Nation": "Jamestown S'Klallam Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "1033 Old Blyn Highway, Sequim, WA98382-7670",
+    "Website": "http://www.jamestowntribe.org"
+  },
+  {
+    "Nation": "Jamul Indian Village",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 612, Jamul, CA91935-0612",
+    "Website": "http://www.jamulindianvillage.com"
+  },
+  {
+    "Nation": "Jena Band of Choctaw Indians",
+    "Region": "Southeast",
+    "Recognition": "Federal",
+    "Address": "PO Box 14, Jena, LA71342-0014",
+    "Website": ""
+  },
+  {
+    "Nation": "Jicarilla Apache Nation",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 507, Dulce, NM87528-0507",
+    "Website": ""
+  },
+  {
+    "Nation": "Juaneno Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "State",
+    "Address": "31411 La Matanza St Ste A, San Juan Capistrano, CA92675-2674",
+    "Website": "http://www.juaneno.com"
+  },
+  {
+    "Nation": "Kaguyak Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 5078, Akhiok, AK99615",
+    "Website": ""
+  },
+  {
+    "Nation": "Kaibab Band of Paiute Indians",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "HC 65 Box 2, Fredonia, AZ86022-9600",
+    "Website": "http://www.kaibabpaiute-nsn.gov"
+  },
+  {
+    "Nation": "Kaktovik Village aka Barter Island",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 52, Kaktovik, AK99747",
+    "Website": ""
+  },
+  {
+    "Nation": "Kalispel Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 39, Usk, WA99180-0039",
+    "Website": "http://www.kalispeltribe.com"
+  },
+  {
+    "Nation": "Kaltag Tribal Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 129, Kaltag, AK99748-0129",
+    "Website": ""
+  },
+  {
+    "Nation": "Karuk Tribe of California",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 1016, Happy Camp, CA96039-1016",
+    "Website": "http://www.karuk.us"
+  },
+  {
+    "Nation": "Kaw Nation",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 50, Kaw City, OK74641-0050",
+    "Website": "www/kawnation.com"
+  },
+  {
+    "Nation": "Kenaitze Indian Tribe (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 988, Kenai, AK99611-0988",
+    "Website": "http://www.kenaitze.org"
+  },
+  {
+    "Nation": "Ketchikan Indian Community",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "2960 Tongass Ave, Ketchikan, AK99901-5742",
+    "Website": "http://www.kictribe.org"
+  },
+  {
+    "Nation": "Keweenaw Bay Indian Community of Michigan",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "107 Bear Town Road, Baraga, MI49908-9210",
+    "Website": "http://www.kbic-nsn.gov"
+  },
+  {
+    "Nation": "Kialegee Tribal Town",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "PO Box 332, Wetumka, OK74883-0332",
+    "Website": "http://kialegeetribal.webstarts.com"
+  },
+  {
+    "Nation": "Kickapoo Traditional Tribe of Texas",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "Kickapoo Traditional Tribe of Texas, 2212 Rosita Valley Rd, Eagle Pass, TX78852-9752",
+    "Website": "http://www.texasindians.com"
+  },
+  {
+    "Nation": "Kickapoo Tribe in Kansas",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "824 11th Dr, Horton, KS66439-9537",
+    "Website": "http://www.ktik-nsn.gov"
+  },
+  {
+    "Nation": "Kickapoo Tribe of Oklahoma",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 70, McLoud, OK74851-0070",
+    "Website": "http://www.kickapootribeofoklahoma.com"
+  },
+  {
+    "Nation": "King Island Native Community (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 682, Nome, AK99762-0992",
+    "Website": ""
+  },
+  {
+    "Nation": "King Salmon Tribe",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 68, King Salmon, AK99613-0068",
+    "Website": ""
+  },
+  {
+    "Nation": "Kiowa Tribe of Oklahoma",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 369, Carnegie, OK73015-0369",
+    "Website": "http://www.kiowatribe.org"
+  },
+  {
+    "Nation": "Klamath Tribes",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 436, Chiloquin, OR97624-0436",
+    "Website": "http://www.klamathtribes.org"
+  },
+  {
+    "Nation": "Klawock Cooperative Association",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 430, Klawock, AK99925-0430",
+    "Website": "http://www.klawock.org/"
+  },
+  {
+    "Nation": "Knik Tribe",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 871565, Wasilla, AK99687-1565",
+    "Website": "https://kniktribe.org/"
+  },
+  {
+    "Nation": "Kokhanok Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "2 Bay Shore Dr, Kokhanok, AK99606-1007",
+    "Website": ""
+  },
+  {
+    "Nation": "Kootenai Tribe of Idaho",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 1269, Bonners Ferry, ID83805-1269",
+    "Website": "http://www.kootenai.org"
+  },
+  {
+    "Nation": "Koyukuk Native Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 109, Koyukuk, AK99754",
+    "Website": ""
+  },
+  {
+    "Nation": "La Jolla Band of Luiseno Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "22003 Highway 76, Pauma Valley, CA92061-9721",
+    "Website": "http://www.lajollaindians.com"
+  },
+  {
+    "Nation": "La Posta Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "8 Crestwood Rd, Boulevard, CA91905-0220",
+    "Website": "http://www.lptribe.net"
+  },
+  {
+    "Nation": "Lac Courte Oreilles Band of Lake Superior Chippewa Indians",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "13394 W Trepania Road, Hayward, WI54843-2186",
+    "Website": "http://www.lco-nsn.gov"
+  },
+  {
+    "Nation": "Lac du Flambeau Band of Lake Superior Chippewa Indians",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 67, Lac Du Flambeau, WI54538-0067",
+    "Website": "http://www.lacduflambeautribe.com"
+  },
+  {
+    "Nation": "Lac Vieux Desert Band of Lake Superior Chippewa",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 249, Watersmeet, MI49969-0249",
+    "Website": "http://www.lvdtribal.com"
+  },
+  {
+    "Nation": "Las Vegas Paiute Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "One Paiute Drive, Las Vegas, NV89106-3261",
+    "Website": "http://www.lvpaiutetribe.com"
+  },
+  {
+    "Nation": "Leech Lake Band of Ojibwe",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "190 Sailstar Dr NE, Cass Lake, MN56633",
+    "Website": "http://www.llojibwe.org"
+  },
+  {
+    "Nation": "Lenape Indian Tribe of Delaware",
+    "Region": "Northeast",
+    "Recognition": "State",
+    "Address": "4164 N Dupont Hwy Ste 6, Dover, DE19901-1573",
+    "Website": "http://www.lenapeindiantribeofdelaware.com"
+  },
+  {
+    "Nation": "Levelock Village Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 70, Levelock, AK99625-0070",
+    "Website": ""
+  },
+  {
+    "Nation": "Lime Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box LVD, McGrath, AK99627",
+    "Website": ""
+  },
+  {
+    "Nation": "Lipan Apache Tribe of Texas",
+    "Region": "Southern Plains",
+    "Recognition": "State",
+    "Address": "PO Box 5218, McAllen, TX78502",
+    "Website": "http://www.lipanapache.org/Communitypages.html"
+  },
+  {
+    "Nation": "Little River Band of Ottawa Indians",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "2608 Government Center Dr, Manistee, MI49660-2729",
+    "Website": "http://www.lrboi.com"
+  },
+  {
+    "Nation": "Little Shell Tribe of Chippewa Indians of Montana",
+    "Region": "Rocky Mountain",
+    "Recognition": "State",
+    "Address": "615 Central Ave West, Great Falls, MT59404",
+    "Website": "https://www.montanalittleshelltribe.org/"
+  },
+  {
+    "Nation": "Little Traverse Bay Bands of Odawa Indians",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "7500 Odawa Circle, Harbor Springs, MI49740-9692",
+    "Website": "http://www.ltbbodawa-nsn.gov"
+  },
+  {
+    "Nation": "Lone Pine Paiute Shoshone Reservation",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 747, Lone Pine, CA93545-0747",
+    "Website": "http://www.lppsr.org"
+  },
+  {
+    "Nation": "Los Coyotes Band of Cahuilla and Cupeno Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 189, Warner Springs, CA92086-0189",
+    "Website": "http://www.loscoyotestribe.com/home2"
+  },
+  {
+    "Nation": "Lovelock Paiute Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 878, Lovelock, NV89419-0878",
+    "Website": "http://www.lovelockpaiutetribe.com/"
+  },
+  {
+    "Nation": "Lower Brule Sioux Tribe",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "187 Oyate Circle, Lower Brule, SD57548-0187",
+    "Website": "https://www.lowerbrulesiouxtribe.com/"
+  },
+  {
+    "Nation": "Lower Elwha Klallam Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "2851 Lower Elwha Road, Port Angeles, WA98363-8409",
+    "Website": "http://www.elwha.org/home.html"
+  },
+  {
+    "Nation": "Lower Lake Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 3162, Santa Rosa, CA95402-3162",
+    "Website": "http://www.koination.com"
+  },
+  {
+    "Nation": "Lower Sioux Indian Community",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 308, Morton, MN56270-1253",
+    "Website": "http://www.lowersioux.com"
+  },
+  {
+    "Nation": "Lumbee Tribe of North Carolina",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "PO Box 2709, Pembroke, NC28372-2709",
+    "Website": "http://www.lumbeetribe.com"
+  },
+  {
+    "Nation": "Lummi Nation",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "2665 Kwina Rd, Bellingham, WA98226-9291",
+    "Website": "http://www.lummi-nsn.gov"
+  },
+  {
+    "Nation": "Lytton Rancheria of California",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "437 Aviation Boulevard, Santa Rosa, CA95403",
+    "Website": ""
+  },
+  {
+    "Nation": "Ma-Chis Lower Creek Indian Tribe of Alabama",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "2950 County Road 377, Elba, AL36323",
+    "Website": "http://www.machistribe.com"
+  },
+  {
+    "Nation": "Makah Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 115, Neah Bay, WA98357-0115",
+    "Website": "http://www.makah.com"
+  },
+  {
+    "Nation": "Manchester Point Arena Band of Pomo Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 623, Point Arena, CA95468-0623",
+    "Website": ""
+  },
+  {
+    "Nation": "Manley Hot Springs Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 105, Manley Hot Springs, AK99756-0105",
+    "Website": ""
+  },
+  {
+    "Nation": "Manokotak Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 169, Manokotak, AK99628-0169",
+    "Website": ""
+  },
+  {
+    "Nation": "Manzanita Band of Kumeyaay Nation",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 1302, Boulevard, CA91905-0402",
+    "Website": ""
+  },
+  {
+    "Nation": "Mashantucket Pequot Tribe",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "PO Box 3060, Mashantucket, CT06338-3060",
+    "Website": "https://www.mptn-nsn.gov/default.aspx"
+  },
+  {
+    "Nation": "Mashpee Wampanoag Tribe",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "483 Great Neck Rd S, Mashpee, MA02649-3707",
+    "Website": "https://mashpeewampanoagtribe-nsn.gov/"
+  },
+  {
+    "Nation": "Match-E-Be-Nash-She-Wish Band of Pottawatomi Indians",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "2872 Mission Drive, Shelbyville, MI49344",
+    "Website": "http://www.mbpi.org"
+  },
+  {
+    "Nation": "McGrath Native Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 134, Mc Grath, AK99627-0134",
+    "Website": ""
+  },
+  {
+    "Nation": "Mechoopda Indian Tribe of Chico Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "125 Mission Ranch Boulevard, Chico, CA95926-2175",
+    "Website": "http://www.mechoopda-nsn.gov"
+  },
+  {
+    "Nation": "Mendas Cha-Ag Tribe of Healy Lake",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "600 University Avenue, Suite 100, Fairbanks, AK99709",
+    "Website": "www.healylake.org"
+  },
+  {
+    "Nation": "Menominee Indian Tribe of Wisconsin",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 910, Keshena, WI54135-0910",
+    "Website": "http://www.menominee-nsn.gov"
+  },
+  {
+    "Nation": "Mentasta Lake Traditional Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 6019, Mentasta Lake, AK99780-6019",
+    "Website": ""
+  },
+  {
+    "Nation": "Mesa Grande Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 270, Santa Ysabel, CA92070-0270",
+    "Website": "http://mesagrandeband-nsn.gov/"
+  },
+  {
+    "Nation": "Mescalero Apache Tribe",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 227, Mescalero, NM88340-0227",
+    "Website": "http://www.mescaleroapachetribe.com"
+  },
+  {
+    "Nation": "Metlakatla Indian Community, Annette Island Reserve",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 8, Metlakatla, AK99926-0008",
+    "Website": "http://www.metlakatla.com"
+  },
+  {
+    "Nation": "Miami Tribe of Oklahoma",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "PO Box 1326, Miami, OK74355-1326",
+    "Website": "http://www.miamination.com"
+  },
+  {
+    "Nation": "Miccosukee Indian Tribe of Florida",
+    "Region": "Southeast",
+    "Recognition": "Federal",
+    "Address": "PO Box 440021, Miami, FL33144-0021",
+    "Website": "http://www.miccosukeetribe.com"
+  },
+  {
+    "Nation": "Middletown Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 1035, Middletown, CA95461-1035",
+    "Website": "http://www.middletownrancheria-nsn.gov/"
+  },
+  {
+    "Nation": "Mille Lacs Band of Ojibwe",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "43408 Oodena Dr, Onamia, MN56359-2236",
+    "Website": "http://millelacsband.com/"
+  },
+  {
+    "Nation": "Minnesota Chippewa Tribe",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 217, Cass Lake, MN56633-0217",
+    "Website": "http://www.mnchippewatribe.org"
+  },
+  {
+    "Nation": "Mississippi Band of Choctaw Indians",
+    "Region": "Southeast",
+    "Recognition": "Federal",
+    "Address": "101 Industrial Road, Choctaw, MS39350-6090",
+    "Website": "http://www.choctaw.org"
+  },
+  {
+    "Nation": "Moapa Band of Paiutes",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 340, Moapa, NV89025-0340",
+    "Website": "http://www.moapapaiutes.com"
+  },
+  {
+    "Nation": "Modoc Tribe of Oklahoma",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "22 N. Eighth Tribes Trail, Miami, OK74354-8224",
+    "Website": "http://www.modoctribe.net"
+  },
+  {
+    "Nation": "Mohegan Indian Tribe",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "13 Crow Hill Road, Uncasville, CT06382-1118",
+    "Website": "http://www.mohegan.nsn.us"
+  },
+  {
+    "Nation": "Monacan Indian Nation",
+    "Region": "Southeast",
+    "Recognition": "Federal",
+    "Address": "111 Highview Drive, Madison Heights, VA24572",
+    "Website": "http://www.monacannation.com"
+  },
+  {
+    "Nation": "Mooretown Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "1 Alverda Drive, Oroville, CA95966-9379",
+    "Website": ""
+  },
+  {
+    "Nation": "Morongo Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "12700 Pumarra Rd, Banning, CA92220-6977",
+    "Website": "http://www.morongonation.org"
+  },
+  {
+    "Nation": "Mowa Band of Choctaw Indians",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "1080 W Red Fox Road, Mt. Vernon, AL",
+    "Website": "http://www.mowa-choctaw.com"
+  },
+  {
+    "Nation": "Muckleshoot Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "39015 172nd Avenue SE, Auburn, WA98092-9763",
+    "Website": "http://www.muckleshoot.nsn.us"
+  },
+  {
+    "Nation": "Muscogee (Creek) Nation",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "PO Box 580 Hwy.75 & Loop 56, Okmulgee, OK74447-0580",
+    "Website": "http://www.muscogeenation-nsn.gov"
+  },
+  {
+    "Nation": "Naknek Native Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 210, Naknek, AK99633-0106",
+    "Website": ""
+  },
+  {
+    "Nation": "Nansemond Tribe",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "1001 Pembroke Lane, Suffolk, VA 23434",
+    "Website": "http://www.nansemond.org"
+  },
+  {
+    "Nation": "Nanticoke Indian Association, Inc.",
+    "Region": "Northeast",
+    "Recognition": "State",
+    "Address": "27073 John J Williams Hwy, Millsboro, DE19966-4642",
+    "Website": "http://www.nanticokeindians.org/"
+  },
+  {
+    "Nation": "Nanticoke-Lenni Lenape Tribal Nation",
+    "Region": "Northeast",
+    "Recognition": "State",
+    "Address": "18 E Commerce St, Bridgeton, NJ08302-2649",
+    "Website": "http://nanticoke-lenapetribalnation.org/"
+  },
+  {
+    "Nation": "Narragansett Indian Tribe",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "PO Box 268, Charlestown, RI02813-0268",
+    "Website": "http://narragansettindiannation.org/"
+  },
+  {
+    "Nation": "Native Village of Afognak",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "323 Carolyn Street, Kodiak, AK99615",
+    "Website": "http://www.afognak.org"
+  },
+  {
+    "Nation": "Native Village of Akhiok",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 5030, Akhiok, AK99615-5030",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Akutan",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 89, Akutan, AK99553-0089",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Aleknagik",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 115, Aleknagik, AK99555-0115",
+    "Website": "http://www.bbna.com"
+  },
+  {
+    "Nation": "Native Village of Ambler",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 47, Ambler, AK99786-0047",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Atka",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 47030, Atka, AK99547-0030",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Barrow Inupiat Traditional Government",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 1130, Barrow, AK99723-1130",
+    "Website": "http://www.nvbarrow.com/"
+  },
+  {
+    "Nation": "Native Village of Belkofski",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 57, King Cove, AK99612-0057",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Brevig Mission",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 85039, Brevig Mission, AK99785-0039",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Buckland (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 67, Buckland, AK99727-0067",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Cantwell",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 94, Cantwell, AK99729-0094",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Chenega aka Chanega",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 8079, Chenega Bay, AK99574-8079",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Chignik Lagoon",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 09, Chignik Lagoon, AK99565",
+    "Website": "http://www.chigniklagoon.net/index.html"
+  },
+  {
+    "Nation": "Native Village of Chignik Lagoon Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 09, Chignik Lagoon, AK99565",
+    "Website": "http://www.chigniklagoon.net/"
+  },
+  {
+    "Nation": "Native Village of Chuathbaluk (Russian Mission, Kuskokwim)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box CHU, Chuathbaluk, AK99557-8999",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 2050, Nome, AK99762-2050",
+    "Website": "http://www.kawerak.org"
+  },
+  {
+    "Nation": "Native Village of Crooked Creek",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 69, Crooked Creek, AK99575-0069",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Deering",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 36089, Deering, AK99736-0089",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Diomede (IRA) (aka Inalik)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 7079, Diomede, AK99762-7079",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Eagle",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 19, Eagle, AK99738-0019",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Eek",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 89, Eek, AK99578-0089",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Eklutna",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "26339 Eklutna Village Rd, Chugiak, AK99567-5148",
+    "Website": "http://www.eklutna-nsn.gov"
+  },
+  {
+    "Nation": "Native Village of Ekuk",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 530, Dillingham, AK99576-0530",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Ekwok",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 70, Ekwok, AK99580",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Elim (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 39070, Elim, AK99739-0070",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Eyak (Cordova)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 1388, Cordova, AK99574-1388",
+    "Website": "http://nveyak.com/"
+  },
+  {
+    "Nation": "Native Village of False Pass",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 29, False Pass, AK99583-0029",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Gakona",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 102, Gakona, AK99586-0102",
+    "Website": "http://www.nvgakona.com"
+  },
+  {
+    "Nation": "Native Village of Gambell",
+    "Region": "IRA",
+    "Recognition": "Federal",
+    "Address": "PO Box 90, Gambell, AK99742-0090",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Georgetown",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "5313 Arctic Blvd, Suite 104, Anchorage, AK99518-1111",
+    "Website": "http://www.georgetowntc.com"
+  },
+  {
+    "Nation": "Native Village of Goodnews Bay",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 138, Goodnews Bay, AK99589-0138",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Hamilton",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 20248, Kotlik, AK99620-0248",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Hooper Bay",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 69, Hooper Bay, AK99604-0069",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Kanatak (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 876822, Wasilla, AK99687-2231",
+    "Website": "http://www.kanatak.com/"
+  },
+  {
+    "Nation": "Native Village of Karluk (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 22, Karluk, AK99608-0022",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Kasigluk",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 19, Kasigluk, AK99609-0019",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Kiana",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 69, Kiana, AK99749-0069",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Kipnuk",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 57, Kipnuk, AK99614-0057",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Kivalina (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 50051, Kivalina, AK99750",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Kluti-Kaah (aka Copper Center)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 68, Copper Center, AK99573-0068",
+    "Website": "http://www.klutikaah.com/"
+  },
+  {
+    "Nation": "Native Village of Kobuk",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 51039, Kobuk, AK99751-0039",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Kongiganak",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 5069, Kongiganak, AK99559-5069",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Kotzebue (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 296, Kotzebue, AK99752-0296",
+    "Website": "http://www.kotzebueira.org/"
+  },
+  {
+    "Nation": "Native Village of Koyuk (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 53030, Koyuk, AK99753-0030",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Kwigillingok ( IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 90, Kwigillingok, AK99622-0049",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Kwinhagak (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 149, Quinhagak, AK99655-0149",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Larsen Bay",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 50, Larsen Bay, AK99624-0050",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Marshall (aka Fortuna Ledge)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 110, Marshall, AK99585-0110",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Mary's Igloo",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 546, Teller, AK99778-0629",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Mekoryuk (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 66, Mekoryuk, AK99630-0066",
+    "Website": "http://www.mekoryuktc.org/"
+  },
+  {
+    "Nation": "Native Village of Minto",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 58026, Minto, AK99758-0026",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Nanwalek (aka English Bay)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 8028, Nanwalek, AK99603-6628",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Napaimute",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "2920 Hogan Bay Circle, Anchorage, AK99515",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Napakiak (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 34069, Napakiak, AK99634-0069",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Napaskiak",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 6009, Napaskiak, AK99559-6009",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Nelson Lagoon",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 913, Nelson Lagoon, AK99571-0013",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Nightmute",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 90021, Nightmute, AK99690-0021",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Nikolski (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 105, Nikolski, AK99638",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Noatak (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 89, Noatak, AK99761-0089",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Noorvik (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 209, Noorvik, AK99763-0209",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Nuiqsut (aka Nooiksut)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 89169, Nuiqsut, AK99789",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Nunapitchuk (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 130, Nunapitchuk, AK99641-0130",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Ouzinkie",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 130, Ouzinkie, AK99644-0130",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Paimiut",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 240084, Anchorage, AK99524",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Perryville",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 89, Perryville, AK99648-0089",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Pitka's Point",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 127, St. Mary's, AK99658",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Point Hope (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 109, Point Hope, AK99766-0109",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Point Lay",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 59031, Point Lay, AK99759-0031",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Port Heiden",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 49007, Port Heiden, AK99549-0007",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Port Lions",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 69, Port Lions, AK99550-0069",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Saint. Michael (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 59050, Saint Michael, AK99659-0050",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Savoonga (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 120, Savoonga, AK99769-0120",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Selawik",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 59, 95 North Tundra St, Selawik, AK99770-0059",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Shaktoolik (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 100, Shaktoolik, AK99771-0100",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Sheldon Point - Nunam Iqua Tribal Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 27, Sheldon's Point, AK99666-0027",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Shishmaref (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 72110, Shishmaref, AK99772-2110",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Shungnak (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 64, Shungnak, AK99773",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of South Naknek",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "2521 East Mountain Village Dr Suite B. PMB 388, Wasilla, AK99654",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Stevens (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 74016, Stevens Village, AK99774-0012",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Tanacross",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 76009, Tanacross, AK99776-6009",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Tanana (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 77130, Tanana, AK99777",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Tatitlek (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 171, Tatitlek, AK99677-0171",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Tazlina",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 87, Glennallen, AK99588-0087",
+    "Website": "http://www.tazlina.org"
+  },
+  {
+    "Nation": "Native Village of Tetlin (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 797, Tok, AK99780",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Tuntutuliak",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 8086 - Patluska Street,, Tuntutuliak, AK99680-0086",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Tyonek (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 82009, Tyonek, AK99682-0009",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Unalakleet (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 270, Unalakleet, AK99684-0270",
+    "Website": ""
+  },
+  {
+    "Nation": "Native Village of Wales (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 549, Wales, AK99783-0549",
+    "Website": "http://www.kawerak.org"
+  },
+  {
+    "Nation": "Native Village of White Mountain (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 84090, White Mountain, AK99784-0082",
+    "Website": ""
+  },
+  {
+    "Nation": "Navajo Nation",
+    "Region": "Navajo Region",
+    "Recognition": "Federal",
+    "Address": "PO Box 7440, Window Rock, AZ86515-7440",
+    "Website": "http://www.navajo-nsn.gov"
+  },
+  {
+    "Nation": "Nenana Traditional Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 369, Nenana, AK99760-0356",
+    "Website": ""
+  },
+  {
+    "Nation": "New Koliganek Village Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 5057, Koliganek, AK99576-5057",
+    "Website": ""
+  },
+  {
+    "Nation": "New Stuyahok Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 49, New Stuyahok, AK99636-0049",
+    "Website": ""
+  },
+  {
+    "Nation": "Newhalen Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 207, Newhalen, AK99606",
+    "Website": ""
+  },
+  {
+    "Nation": "Newtok Traditional Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 5545, Newtok, AK99559-5545",
+    "Website": ""
+  },
+  {
+    "Nation": "Nez Perce Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 305, Lapwai, ID83540-0305",
+    "Website": "http://www.nezperce.org"
+  },
+  {
+    "Nation": "Ninilchik Traditional Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 39070, Ninilchik, AK99639-0070",
+    "Website": "http://www.ninilchiktribe-nsn.gov"
+  },
+  {
+    "Nation": "Nisqually Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "4820 She-Nah-Num Drive, SE, Olympia, WA98513-9199",
+    "Website": "http://www.nisqually-nsn.gov/"
+  },
+  {
+    "Nation": "Nome Eskimo Community",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 1090, Nome, AK99762-1090",
+    "Website": "http://www.necalaska.org"
+  },
+  {
+    "Nation": "Nondalton Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 49, Nondalton, AK99640-0049",
+    "Website": ""
+  },
+  {
+    "Nation": "Nooksack Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 157, Deming, WA98244-0157",
+    "Website": "http://www.nooksacktribe.org"
+  },
+  {
+    "Nation": "Northern Arapaho Tribe",
+    "Region": "Rocky Mountain",
+    "Recognition": "Federal",
+    "Address": "PO Box 396, Fort Washakie, WY82514-0396",
+    "Website": "http://www.northernarapaho.com"
+  },
+  {
+    "Nation": "Northern Cheyenne Tribe",
+    "Region": "Rocky Mountain",
+    "Recognition": "Federal",
+    "Address": "PO Box 128, Lame Deer, MT59043-0128",
+    "Website": "http://tribalnations.mt.gov/northerncheyenne"
+  },
+  {
+    "Nation": "Northfork Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 929, North Fork, CA93643-0929",
+    "Website": "http://northforkrancheria-nsn.gov/home"
+  },
+  {
+    "Nation": "Northway Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 516, Northway, AK99764-0516",
+    "Website": ""
+  },
+  {
+    "Nation": "Northwestern Band of the Shoshone Nation",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "707 North Main Street, Brigham City, UT84302-1449",
+    "Website": "http://www.nwbshoshone-nsn.gov"
+  },
+  {
+    "Nation": "Nottawaseppi Huron Band of Potawatomi",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "2221 1 1/2 Mile Road, Fulton, MI49052-9602",
+    "Website": "http://www.nhbpi.com"
+  },
+  {
+    "Nation": "Nottoway Indian Tribe of Virginia",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "PO Box 246, Capron, VA23829-0246",
+    "Website": "http://www.nottowayindians.org/"
+  },
+  {
+    "Nation": "Nulato Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 65049, Nulato, AK99765-0049",
+    "Website": ""
+  },
+  {
+    "Nation": "Nunakauyarmiut Tribe",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 37048, Toksook Bay, AK99637-7048",
+    "Website": ""
+  },
+  {
+    "Nation": "Occaneechi Band of the Saponi Nation",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "PO Box 356, Mebane, NC27302",
+    "Website": "http://www.obsn.org/"
+  },
+  {
+    "Nation": "Oglala Sioux Tribe",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 2070, Pine Ridge, SD57770-2070",
+    "Website": "http://oglalalakotanation.info/index.html"
+  },
+  {
+    "Nation": "Ohkay Owingeh",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 1099, Ohkay Owingeh, NM87566-1099",
+    "Website": ""
+  },
+  {
+    "Nation": "Omaha Tribe of Nebraska",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 368, Macy, NE68039-0368",
+    "Website": "https://www.omahatribe.com/"
+  },
+  {
+    "Nation": "Oneida Indian Nation",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "5218 Patrick Rd, Verona, NY13478-3012",
+    "Website": "http://www.oneidaindiannation.com/"
+  },
+  {
+    "Nation": "Oneida Nation",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 365, Oneida, WI54155-0365",
+    "Website": "http://www.oneidanation.org"
+  },
+  {
+    "Nation": "Onondaga Indian Nation",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "4040 Route 11, Nedrow, NY",
+    "Website": "https://www.onondaganation.org/"
+  },
+  {
+    "Nation": "Organized Village of Grayling (IRA) (aka Holikachuk)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 49, Grayling, AK99590-0049",
+    "Website": ""
+  },
+  {
+    "Nation": "Organized Village of Kake (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 316, Kake, AK99830-0316",
+    "Website": "http://www.kakefirstnation.org"
+  },
+  {
+    "Nation": "Organized Village of Kasaan (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 26 - KXA, Kasaan, AK99950-0340",
+    "Website": "http://www.kasaan.org"
+  },
+  {
+    "Nation": "Organized Village of Kwethluk (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 130, Kwethluk, AK99621-0130",
+    "Website": ""
+  },
+  {
+    "Nation": "Organized Village of Saxman (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "RR 2 Box 2-Saxman, Ketchikan, AK99901-9802",
+    "Website": ""
+  },
+  {
+    "Nation": "Orutsararmiut Traditional Native Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 927, Bethel, AK99559-0927",
+    "Website": ""
+  },
+  {
+    "Nation": "Osage Nation",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "627 Grandview Ave, Pawhuska, OK74056-4201",
+    "Website": "https://www.osagenation-nsn.gov/"
+  },
+  {
+    "Nation": "Oscarville Traditional Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 6129, Napaskiak, AK99559-6129",
+    "Website": ""
+  },
+  {
+    "Nation": "Otoe-Missouria Tribe of Indians",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "8151 Highway 177, Red Rock, OK74651-0348",
+    "Website": "http://www.omtribe.org/"
+  },
+  {
+    "Nation": "Ottawa Tribe of Oklahoma",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "PO Box 110, Miami, OK74355-0110",
+    "Website": "http://www.ottawatribe.org"
+  },
+  {
+    "Nation": "Paiute Indian Tribe of Utah",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "440 N Paiute Drive, Cedar City, UT84720",
+    "Website": "http://www.utahpaiutes.org"
+  },
+  {
+    "Nation": "Paiute-Shoshone Tribe of the Fallon Reservation and Colony",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "565 Rio Vista Drive, Fallon, NV89406-6415",
+    "Website": "http://www.fpst.org"
+  },
+  {
+    "Nation": "Pala Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "35008 Pala Temecula Rd, Pala, CA92059-2419",
+    "Website": "http://www.palatribe.com"
+  },
+  {
+    "Nation": "Pamunkey Indian Tribe",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "1054 Pocahontas Trail, King Williams, VA23086",
+    "Website": "http://www.pamunkey.org"
+  },
+  {
+    "Nation": "Pascua Yaqui Tribe of Arizona",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "7474 S. Camino De Oeste, Tucson, AZ85757",
+    "Website": "http://www.pascuayaqui-nsn.gov"
+  },
+  {
+    "Nation": "Paskenta Band of Nomlaki Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 709, Corning, CA96021",
+    "Website": "http://www.paskenta-nsn.gov"
+  },
+  {
+    "Nation": "Passamaquoddy Tribe - Indian Township Reservation",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "PO Box 301, Princeton, ME04668-0301",
+    "Website": "https://www.passamaquoddy.com/"
+  },
+  {
+    "Nation": "Passamaquoddy Tribe - Pleasant Point Reservation",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "9 Sakom Dr, Perry, ME04667-0343",
+    "Website": "http://www.wabanaki.com"
+  },
+  {
+    "Nation": "Pauloff Harbor Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 97, Sand Point, AK99661-0097",
+    "Website": ""
+  },
+  {
+    "Nation": "Pauma/Yuima Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 369, Pauma Valley, CA92061-0369",
+    "Website": "http://www.paumatribe.com/"
+  },
+  {
+    "Nation": "Pawnee Nation of Oklahoma",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 470, Pawnee, OK74058-0470",
+    "Website": "http://www.pawneenation.org"
+  },
+  {
+    "Nation": "Pechanga Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 1477, Temecula, CA92593-1477",
+    "Website": "http://www.pechanga-nsn.gov"
+  },
+  {
+    "Nation": "Pedro Bay Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 47020, Pedro Bay, AK99647-0020",
+    "Website": "http://www.pedrobay.com"
+  },
+  {
+    "Nation": "Pee Dee Indian Tribe",
+    "Region": "Western",
+    "Recognition": "State",
+    "Address": "445 Williams Street, McColl, SC29570",
+    "Website": "http://www.peedeetribe.org/home.html"
+  },
+  {
+    "Nation": "Penobscot Indian Nation",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "12 Wabanaki Way, Indian Island, ME04468-1254",
+    "Website": "http://www.penobscotnation.org"
+  },
+  {
+    "Nation": "Peoria Tribe of Oklahoma",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "118 S Eight Tribes Trail, Miami, OK74354",
+    "Website": "http://www.peoriatribe.com"
+  },
+  {
+    "Nation": "Petersburg Indian Association (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 1418, Petersburg, AK99833-1418",
+    "Website": "http://www.piatribal.org/"
+  },
+  {
+    "Nation": "Picayune Rancheria of Chukchansi Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 2226, Oakhurst, CA93644",
+    "Website": ""
+  },
+  {
+    "Nation": "Pilot Point Tribal Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 449, Pilot Point, AK99649-0449",
+    "Website": ""
+  },
+  {
+    "Nation": "Pilot Station Traditional Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 5119, Pilot Station, AK99650-0119",
+    "Website": ""
+  },
+  {
+    "Nation": "Pinoleville Pomo Nation",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "500 Pinoleville Rd Ste B, Ukiah, CA95482-7121",
+    "Website": "http://www.pinolevillepomonation.org/"
+  },
+  {
+    "Nation": "Piqua Shawnee Tribe",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "34112 Wellford Circle, Birmingham, AL",
+    "Website": "http://www.piquashawnee.com"
+  },
+  {
+    "Nation": "Pit River Tribe",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "3670 Park Avenue, Burney, CA96013-4128",
+    "Website": "http://www.pitrivertribe.org/"
+  },
+  {
+    "Nation": "Platinum Traditional Village Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 8, Platinum, AK99651-0008",
+    "Website": ""
+  },
+  {
+    "Nation": "Poarch Band of Creek Indians",
+    "Region": "Southeast",
+    "Recognition": "Federal",
+    "Address": "5811 Jack Springs Road, Atmore, AL36502-5025",
+    "Website": "http://www.poarchcreekindians.org"
+  },
+  {
+    "Nation": "Pointe-Au-Chien Indian Tribe",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "PO Box 416, Montegut, LA70377-0416",
+    "Website": "http://pactribe.tripod.com"
+  },
+  {
+    "Nation": "Pokagon Band of Potawatomi Indians",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 180, Dowagiac, MI49047-9329",
+    "Website": "http://www.pokagon.com"
+  },
+  {
+    "Nation": "Ponca Tribe of Nebraska",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 288, Niobrara, NE68760-0288",
+    "Website": "http://www.poncatribe-ne.org"
+  },
+  {
+    "Nation": "Ponca Tribe of Oklahoma",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "20 White Eagle Drive, Ponca City, OK74601-8310",
+    "Website": "http://www.ponca.com"
+  },
+  {
+    "Nation": "Port Gamble S'Klallam Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "31912 Little Boston Road, NE, Kingston, WA98346-9700",
+    "Website": "http://www.pgst.nsn.us"
+  },
+  {
+    "Nation": "Port Graham Village Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 5510, Port Graham, AK99603-5510",
+    "Website": "http://www.portgraham.org/"
+  },
+  {
+    "Nation": "Portage Creek Village (aka Ohgenakale)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "1057 W. Fireweed Lane, Suite 220, Anchorage, AK99503",
+    "Website": ""
+  },
+  {
+    "Nation": "Potter Valley Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "2251 South State Street, Ukiah, CA95482-6723",
+    "Website": "http://www.pottervalleytribe.com"
+  },
+  {
+    "Nation": "Prairie Band Potawatomi Nation",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "16281 Q Rd, Mayetta, KS66509-8970",
+    "Website": "http://www.pbpnation.org"
+  },
+  {
+    "Nation": "Prairie Island Indian Community",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "5636 Sturgeon Lake Rd, Welch, MN55089-9635",
+    "Website": "http://www.prairieisland.org"
+  },
+  {
+    "Nation": "Pueblo of Acoma",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 309, Acoma, NM87034-0309",
+    "Website": "http://www.puebloofacoma.org"
+  },
+  {
+    "Nation": "Pueblo of Cochiti",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 70, Cochiti Pueblo, NM87072-0070",
+    "Website": "http://www.pueblodecochiti.org"
+  },
+  {
+    "Nation": "Pueblo of Isleta",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 1270, Isleta Pueblo, NM87022",
+    "Website": "http://www.isletapueblo.com"
+  },
+  {
+    "Nation": "Pueblo of Jemez",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 100, Jemez Pueblo, NM87024-0100",
+    "Website": "http://www.jemezpueblo.org"
+  },
+  {
+    "Nation": "Pueblo of Laguna",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 194, Laguna Pueblo, NM87026",
+    "Website": "http://www.lagunapueblo.org"
+  },
+  {
+    "Nation": "Pueblo of Nambe",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "15A NP102 West, SANTA FE, NM87506-2731",
+    "Website": "http://www.nambepueblo.org"
+  },
+  {
+    "Nation": "Pueblo of Picuris",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 127, Penasco, NM87553-0127",
+    "Website": ""
+  },
+  {
+    "Nation": "Pueblo of Pojoaque",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "79 Cities of Gold Road, Santa Fe, NM87506-0918",
+    "Website": "http://www.pojoaque.com"
+  },
+  {
+    "Nation": "Pueblo of San Felipe",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 4339, San Felipe Pueblo, NM87001",
+    "Website": ""
+  },
+  {
+    "Nation": "Pueblo of San Ildefonso",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "02 Tunyo Po, Santa Fe, NM87506",
+    "Website": ""
+  },
+  {
+    "Nation": "Pueblo of Sandia",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "481 Sandia Loop, Bernalillo, NM87004-7076",
+    "Website": "http://www.sandiapueblo.nsn.us"
+  },
+  {
+    "Nation": "Pueblo of Santa Ana",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "2 Dove Road, Santa Ana Pueblo, NM87004-5906",
+    "Website": ""
+  },
+  {
+    "Nation": "Pueblo of Santa Clara",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 580, Espanola, NM87532-0580",
+    "Website": ""
+  },
+  {
+    "Nation": "Pueblo of Santo Domingo",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 99, Santo Domingo Pueblo, NM87052-0099",
+    "Website": ""
+  },
+  {
+    "Nation": "Pueblo of Taos",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 1846, Taos, NM87571-1846",
+    "Website": "http://www.taospueblo.com"
+  },
+  {
+    "Nation": "Pueblo of Tesuque",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "RR 42 Box 360-T, Santa Fe, NM87506-2632",
+    "Website": ""
+  },
+  {
+    "Nation": "Pueblo of Ysleta Del Sur",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "119 S Old Pueblo Road, Ysleta Del Sur Pueblo, TX79917-",
+    "Website": "http://www.ysletadelsurpueblo.org"
+  },
+  {
+    "Nation": "Pueblo of Zia",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "135 Capitol Square Dr., Zia Pueblo, NM87053-6013",
+    "Website": ""
+  },
+  {
+    "Nation": "Pueblo of Zuni",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 339, Zuni, NM87327-0339",
+    "Website": "http://www.ashiwi.org"
+  },
+  {
+    "Nation": "Puyallup Tribe of Indians",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "3009 East Portland Avenue, Tacoma, WA98404-4926",
+    "Website": "http://www.puyalluptribe.com"
+  },
+  {
+    "Nation": "Pyramid Lake Paiute Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 256, Nixon, NV89424-0256",
+    "Website": "http://www.plpt.nsn.us"
+  },
+  {
+    "Nation": "Qagan Tayagungin Tribe of Sand Point Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 447, Sand Point, AK99661-0447",
+    "Website": "http://www.qttribe.org"
+  },
+  {
+    "Nation": "Qawalangin Tribe of Unalaska",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 334, Unalaska, AK99685-0334",
+    "Website": ""
+  },
+  {
+    "Nation": "Quapaw Tribe of Oklahoma",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "PO Box 765, Quapaw, OK74363-0765",
+    "Website": "http://www.quapawtribe.com"
+  },
+  {
+    "Nation": "Quartz Valley Reservation",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "13601 Quartz Valley Rd, Fort Jones, CA96032-9714",
+    "Website": "http://www.qvir.com"
+  },
+  {
+    "Nation": "Quechan Tribe of the Fort Yuma Indian Reservation",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 1899, Yuma, AZ85366-2386",
+    "Website": "http://www.quechantribe.com"
+  },
+  {
+    "Nation": "Quileute Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 279, La Push, WA98350-0279",
+    "Website": "http://www.quileutenation.org"
+  },
+  {
+    "Nation": "Quinault Indian Nation",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 189, Taholah, WA98587-0189",
+    "Website": "http://www.quinaultindiannation.com"
+  },
+  {
+    "Nation": "Ramapough Lenape Nation",
+    "Region": "Northeast",
+    "Recognition": "State",
+    "Address": "189 Stag Hill Road, Nahwah, NJ07430",
+    "Website": "http://www.ramapoughlenapenation.org"
+  },
+  {
+    "Nation": "Ramona Band of Cahuilla",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "56310 Highway 371, Suite B, Anza, CA92539",
+    "Website": "http:/ramona-nsn.gov"
+  },
+  {
+    "Nation": "Rampart Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 29, Rampart, AK99767",
+    "Website": ""
+  },
+  {
+    "Nation": "Rappahannock Tribe",
+    "Region": "Southeast",
+    "Recognition": "Federal",
+    "Address": "5036 Indian Neck Road, Indian Neck, VA23148",
+    "Website": "http://www.rappahannocktribe.org/"
+  },
+  {
+    "Nation": "Red Cliff Band of Lake Superior Chippewa Indians",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "88385 Pike Road, Hwy 13, Bayfield, WI54814",
+    "Website": "http://www.redcliff-nsn.gov"
+  },
+  {
+    "Nation": "Red Lake Band of Chippewa Indians",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 550, Redlake, MN56671-0550",
+    "Website": "http://www.redlakenation.org"
+  },
+  {
+    "Nation": "Redding Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "2000 Redding Rancheria Road, Redding, CA96001-5528",
+    "Website": "http://www.redding-rancheria.com/"
+  },
+  {
+    "Nation": "Redwood Valley Little River Band of Pomo Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "3250 Road I, Redwood Valley, CA95470-9526",
+    "Website": ""
+  },
+  {
+    "Nation": "Reno-Sparks Indian Colony",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "34 Reservation Road, Reno, NV89502-1230",
+    "Website": "http://www.rsic.org"
+  },
+  {
+    "Nation": "Resighini Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 529, Klamath, CA95548-0529",
+    "Website": "http://www.resighinirancheria.com"
+  },
+  {
+    "Nation": "Rincon Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "1 West Tribal Road, Valley Center, CA92082-0068",
+    "Website": "http://www.rincontribe.org/"
+  },
+  {
+    "Nation": "Robinson Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 4015, Nice, CA95464-4015",
+    "Website": "http://www.robinsonrancheria.org"
+  },
+  {
+    "Nation": "Rosebud Sioux Tribe",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 430, Rosebud, SD57570-0430",
+    "Website": "http://www.rosebudsiouxtribe-nsn.gov"
+  },
+  {
+    "Nation": "Round Valley Reservation",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "77826 Covelo Road, Covelo, CA95428-0448",
+    "Website": "http://www.rvit.org"
+  },
+  {
+    "Nation": "Ruby Tribal Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 210, Ruby, AK99768",
+    "Website": ""
+  },
+  {
+    "Nation": "Sac & Fox Tribe of the Mississippi in Iowa",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "349 Meskwaki Road, Tama, IA52339-9634",
+    "Website": "http://www.meskwaki.org"
+  },
+  {
+    "Nation": "Sac and Fox Nation of Missouri in Kansas and Nebraska",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "305 N Main St, Reserve, KS66434-8122",
+    "Website": "http://www.sacandfoxks.com/sacfox.nsf"
+  },
+  {
+    "Nation": "Sac and Fox Nation of Oklahoma",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "920883 S Highway 99, Stroud, OK74079-5178",
+    "Website": "http://www.sacandfoxnation-nsn.gov"
+  },
+  {
+    "Nation": "Saginaw Chippewa Indian Tribe",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "7500 Soaring Eagle Blvd, Mount Pleasant, MI48858",
+    "Website": "http://www.sagchip.org"
+  },
+  {
+    "Nation": "Salt River Pima-Maricopa Indian Community",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "10005 E Osborn Road, Scottsdale, AZ85256-4019",
+    "Website": "http://www.srpmic-nsn.gov/"
+  },
+  {
+    "Nation": "Samish Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 217, Anacortes, WA98221-0217",
+    "Website": "http://www.samishtribe.nsn.us"
+  },
+  {
+    "Nation": "San Carlos Apache Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 0, San Carlos, AZ",
+    "Website": "http://www.sancarlosapache.com"
+  },
+  {
+    "Nation": "San Juan Southern Paiute Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "50 South Main Street, Suite 101, Tuba City, AZ86045",
+    "Website": ""
+  },
+  {
+    "Nation": "San Manuel Band of Mission Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "26569 Community Center Drive, Highland, CA92346",
+    "Website": "http://www.sanmanuel-nsn.gov"
+  },
+  {
+    "Nation": "San Pasqual Band of Diegueno Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 365, Valley Center, CA92082-0365",
+    "Website": "http://www.sanpasqualbandofmissionindians.org/"
+  },
+  {
+    "Nation": "Santa Rosa Band of Cahuilla Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 391820, Anza, CA92539",
+    "Website": "www.santarosacahuilla-nsn.gov"
+  },
+  {
+    "Nation": "Santa Rosa Rancheria Tachi Yokut Tribe",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 8, Lemoore, CA93245-0008",
+    "Website": "http://www.tachi-yokut-nsn.gov"
+  },
+  {
+    "Nation": "Santa Ynez Band Of Chumash Tribe",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 517, Santa Ynez, CA93460-0517",
+    "Website": "http://www.santaynezchumash.org"
+  },
+  {
+    "Nation": "Santee Sioux Tribe",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "108 Spirit Lake Ave W, Niobrara, NE68760-8605",
+    "Website": "http://www.santeedakota.org"
+  },
+  {
+    "Nation": "Sauk-Suiattle Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "5318 Chief Brown Lane, Darrington, WA98241-9420",
+    "Website": "http://www.sauk-suiattle.com"
+  },
+  {
+    "Nation": "Sault Ste. Marie Tribe of Chippewa Indians",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "523 Ashmun Street, Sault Ste. Marie, MI49783",
+    "Website": "http://www.saulttribe.com"
+  },
+  {
+    "Nation": "Scammon Bay Traditional Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 110, Scammon Bay, AK99662-0110",
+    "Website": ""
+  },
+  {
+    "Nation": "Schaghticoke Tribal Nation",
+    "Region": "Northeast",
+    "Recognition": "State",
+    "Address": "101 Elizabeth Street 2nd Floor, Derby, CT06418-0335",
+    "Website": "http://www.schaghticoke.com"
+  },
+  {
+    "Nation": "Scotts Valley Band of Pomo Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "1005 Parallel Dr., Lakeport, CA95453",
+    "Website": "http://www.svpomo.org"
+  },
+  {
+    "Nation": "Seaconke Wampanoag Tribe",
+    "Region": "Northeast",
+    "Recognition": "State",
+    "Address": "807 Broad St, Providence , RI 02907",
+    "Website": "https://www.seaconkewampanoag.org/"
+  },
+  {
+    "Nation": "Seldovia Village Tribe (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "Drawer L, Seldovia, AK99663-0250",
+    "Website": "http://www.svt.org"
+  },
+  {
+    "Nation": "Seminole Indian Tribe of Florida",
+    "Region": "Southeast",
+    "Recognition": "Federal",
+    "Address": "6300 Stirling Road, Hollywood, FL33024",
+    "Website": "http://www.seminoletribe.com"
+  },
+  {
+    "Nation": "Seminole Nation of Oklahoma",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "PO Box 1498, Wewoka, OK74884-1498",
+    "Website": "http://www.sno-nsn.gov"
+  },
+  {
+    "Nation": "Seneca Nation of Indians",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "12837 Route 438, Irving, NY14081",
+    "Website": "http://www.sni.org"
+  },
+  {
+    "Nation": "Seneca-Cayuga Tribe of Oklahoma",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "23701 S 655 Road, Grove, OK74344-6317",
+    "Website": "http://www.sctribe.com"
+  },
+  {
+    "Nation": "Shageluk Native Village (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 109, Shageluk, AK99665",
+    "Website": ""
+  },
+  {
+    "Nation": "Shakopee Mdewakanton Sioux Community",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "2330 Sioux Trl NW, Prior Lake, MN55372-9077",
+    "Website": "https://shakopeedakota.org/"
+  },
+  {
+    "Nation": "Shawnee Tribe",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "PO Box 189, Miami, OK74355-0189",
+    "Website": "http://www.shawnee-tribe.com"
+  },
+  {
+    "Nation": "Sherwood Valley Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "190 Sherwood Hill Dr, Willits, CA95490-4666",
+    "Website": "https://www.sherwoodvalleybandofpomo.com/"
+  },
+  {
+    "Nation": "Shingle Springs Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 1340, Shingle Springs, CA95682-1340",
+    "Website": "http://www.shinglespringsrancheria.com"
+  },
+  {
+    "Nation": "Shinnecock Indian Nation",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "PO Box 5006, Southampton, NY11969-5006",
+    "Website": ""
+  },
+  {
+    "Nation": "Shoalwater Bay Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 130, Tokeland, WA98590-0130",
+    "Website": "http://www.shoalwaterbay-nsn.gov"
+  },
+  {
+    "Nation": "Shoshone-Bannock Tribes of the Fort Hall Reservation",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 306, Fort Hall, ID83203-0306",
+    "Website": "http://www.shoshonebannocktribes.com"
+  },
+  {
+    "Nation": "Shoshone-Paiute Tribes of the Duck Valley Indian Reservation",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 219, Owyhee, NV89832-0219",
+    "Website": "http://www.shopaitribes.org"
+  },
+  {
+    "Nation": "Sisseton-Wahpeton Oyate of the Lake Traverse Reservation",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 509, Agency Village, SD57262-0509",
+    "Website": "http://www.swo-nsn.gov"
+  },
+  {
+    "Nation": "Sitka Tribe of Alaska (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "456 Katlian Street, Sitka, AK99835-7505",
+    "Website": "http://www.sitkatribe.org"
+  },
+  {
+    "Nation": "Skagway Traditional Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 1157, Skagway, AK99840-1157",
+    "Website": "http://www.skagwaytraditional.org/"
+  },
+  {
+    "Nation": "Skokomish Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "80 North Tribal Center Road, Shelton, , Skokomish Nation, WA98584-9748",
+    "Website": "http://www.skokomish.org"
+  },
+  {
+    "Nation": "Skull Valley Band of Goshutes Indians",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 448, Grantsville, UT84029-0448",
+    "Website": ""
+  },
+  {
+    "Nation": "Smith River Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "140 Rowdy Creek Rd, Smith River, CA95567-9446",
+    "Website": "http://www.tolowa-nsn.gov"
+  },
+  {
+    "Nation": "Snoqualmie IndianTribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 969, Snoqualmie, WA98065-0969",
+    "Website": "https://www.snoqualmietribe.us/"
+  },
+  {
+    "Nation": "Soboba Band of Luiseno Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 487, San Jacinto, CA92581-0487",
+    "Website": "http://www.soboba-nsn.gov"
+  },
+  {
+    "Nation": "Sokaogon Band of the Lake Superior Chippewa Indians",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "3051 Sand Lake Road, Crandon, WI54520-8815",
+    "Website": "http://www.sokaogonchippewa.com"
+  },
+  {
+    "Nation": "South Fork Band Council (Te-Moak Tribe of Western Shoshone Indians of Nevada)",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "21 Lee B-13, Spring Creek, NV89815-9784",
+    "Website": ""
+  },
+  {
+    "Nation": "Southeastern Mvskoke Nation, Inc., formerly Star Clan of Muscogee Creeks",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "208 Dale Cr., Midland City, AL36350",
+    "Website": ""
+  },
+  {
+    "Nation": "Southern Ute Indian Tribe",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 737, Ignacio, CO81137-0737",
+    "Website": "https://www.southernute-nsn.gov/"
+  },
+  {
+    "Nation": "Spirit Lake Tribe",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 359, Fort Totten, ND58335-0359",
+    "Website": "http://www.spiritlakenation.com"
+  },
+  {
+    "Nation": "Spokane Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 100, Wellpinit, WA99040-0100",
+    "Website": "http://www.spokanetribe.com"
+  },
+  {
+    "Nation": "Squaxin Island Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "10 SE Squaxin Lane, Shelton, WA98584-9200",
+    "Website": "http://www.squaxinisland.org"
+  },
+  {
+    "Nation": "St. Croix Chippewa Indians",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "24663 Angeline Ave, Webster, WI54893-9246",
+    "Website": "http://www.stcciw.com"
+  },
+  {
+    "Nation": "St. George Traditional Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 940, Saint George Island, AK99591-0940",
+    "Website": ""
+  },
+  {
+    "Nation": "St. Regis Mohawk Tribe",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "71 Margaret Terrance Memorial Way, Akwesasne, NY13655-3109",
+    "Website": "http://www.srmt-nsn.gov/"
+  },
+  {
+    "Nation": "Standing Rock Sioux Tribe",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box D, Fort Yates, ND58538-0522",
+    "Website": "http://www.standingrock.org"
+  },
+  {
+    "Nation": "Stebbins Community Association (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 71002, Stebbins, AK99671-0002",
+    "Website": ""
+  },
+  {
+    "Nation": "Stewart Community Council (Washoe Tribe of Nevada & California)",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "919 Highway 395 South, Gardnerville, NV89410",
+    "Website": ""
+  },
+  {
+    "Nation": "Stewarts Point Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "1420 Guerneville Rd Suite 1, Santa Rosa, CA95403-2039",
+    "Website": ""
+  },
+  {
+    "Nation": "Stillaguamish Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 277, Arlington, WA98223-0277",
+    "Website": "http://www.stillaguamish.nsn.us"
+  },
+  {
+    "Nation": "Stockbridge-Munsee Community",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 70, Bowler, WI54416-0070",
+    "Website": "http://www.mohican-nsn.gov"
+  },
+  {
+    "Nation": "Summit Lake Paiute Tribe of Nevada",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "1001 Rock Blvd, Sparks, NV89431-4337",
+    "Website": "http://www.summitlaketribe.org"
+  },
+  {
+    "Nation": "Sun'aq Tribe of Kodiak",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "312 West Marine Way, Kodiak, AK99615",
+    "Website": "http://www.sunaq.org"
+  },
+  {
+    "Nation": "Suquamish Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 498, Suquamish, WA98392-0498",
+    "Website": "http://www.suquamish.nsn.us"
+  },
+  {
+    "Nation": "Susanville Indian Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "745 Joaquin St, Susanville, CA96130-3628",
+    "Website": "http://www.sir-nsn.gov"
+  },
+  {
+    "Nation": "Swinomish Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "11404 Moorage Way, La Conner, WA98257-0817",
+    "Website": "http://www.swinomish.org"
+  },
+  {
+    "Nation": "Sycuan Band of the Kumeyaay Nation",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "1 Kwaaypaay Court, El Cajon, CA92019-1821",
+    "Website": "https://sycuantribe.com/"
+  },
+  {
+    "Nation": "Table Mountain Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 410, Friant, CA93626-0410",
+    "Website": ""
+  },
+  {
+    "Nation": "Takotna Village",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box TYC, Takotna, AK99675",
+    "Website": ""
+  },
+  {
+    "Nation": "Tangirnaq Native Village  aka Woody Island Tribal Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "3449 E. Rezanof Drive, Kodiak, AK99615",
+    "Website": "http://www.woodyisland.com"
+  },
+  {
+    "Nation": "Te-Moak of Western Shoshone Tribes of Nevada",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "525 Sunset Street, Elko, NV89801-2539",
+    "Website": "http://www.temoaktribe.com"
+  },
+  {
+    "Nation": "Tejon Indian Tribe",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "1731 Hasti Acres Drive, Suite 108, Bakersfield, CA93309",
+    "Website": ""
+  },
+  {
+    "Nation": "Telida Native Village Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 9104, Nikolai, AK99691-0004",
+    "Website": ""
+  },
+  {
+    "Nation": "Teller Traditional Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 567, Teller, AK99778-0567",
+    "Website": ""
+  },
+  {
+    "Nation": "The Eastern Chickahominy",
+    "Region": "Southeast",
+    "Recognition": "3120 Mount Pleasant Road, Providence Forge, VA23140",
+    "Address": "",
+    "Website": "Thlopthlocco Tribal Town"
+  },
+  {
+    "Nation": "Eastern Oklahoma",
+    "Region": "Federal",
+    "Recognition": "PO Box 188, Okemah, OK74859-0188",
+    "Address": "http://tttown.org/",
+    "Website": "Three Affiliated Tribes of Mandan, Hidatsa & Arikara Nation"
+  },
+  {
+    "Nation": "Great Plains",
+    "Region": "Federal",
+    "Recognition": "404 Frontage Road, New Town, ND58763-9404",
+    "Address": "http://www.mhanation.com/",
+    "Website": "Timbisha Shoshone Tribe"
+  },
+  {
+    "Nation": "Pacific",
+    "Region": "Federal",
+    "Recognition": "PO Box 1779, Bishop, CA93515-1779",
+    "Address": "http://timbisha.com/",
+    "Website": "Tohono O'odham Nation"
+  },
+  {
+    "Nation": "Western",
+    "Region": "Federal",
+    "Recognition": "PO Box 837, Sells, AZ85634-0837",
+    "Address": "http://www.tonation-nsn.gov",
+    "Website": "Tonawanda Band of Seneca"
+  },
+  {
+    "Nation": "Northeast",
+    "Region": "Federal",
+    "Recognition": "7027 Meadville Rd, Basom, NY14013-9749",
+    "Address": "",
+    "Website": "Tonkawa Tribe of Oklahoma"
+  },
+  {
+    "Nation": "Southern Plains",
+    "Region": "Federal",
+    "Recognition": "1 Rush Buffalo Road, Tonkawa, OK74653-4449",
+    "Address": "http://www.tonkawatribe.com",
+    "Website": "Tonto Apache Tribe"
+  },
+  {
+    "Nation": "Western",
+    "Region": "Federal",
+    "Recognition": "30 Tonto Apache Reservation, #30, Payson, AZ85541-5556",
+    "Address": "",
+    "Website": "Torres-Martinez Desert Cahuilla Indians"
+  },
+  {
+    "Nation": "Pacific",
+    "Region": "Federal",
+    "Recognition": "PO Box 1160, Thermal, CA92274-1160",
+    "Address": "http://www.torresmartinez.org",
+    "Website": "Traditional Village of Togiak"
+  },
+  {
+    "Nation": "Alaska",
+    "Region": "Federal",
+    "Recognition": "PO Box 310, Togiak, AK99678-0310",
+    "Address": "",
+    "Website": "Tsalagiyi Nvdagi Tribe"
+  },
+  {
+    "Nation": "Southern Plains",
+    "Region": "State",
+    "Recognition": "4212 Kendall Lane, Waco, TX76705",
+    "Address": "https://texascherokees.net/",
+    "Website": "Tulalip Tribes"
+  },
+  {
+    "Nation": "Northwest",
+    "Region": "Federal",
+    "Recognition": "6406 Marine Drive, Tulalip, WA98271-9775",
+    "Address": "http://www.tulaliptribes-nsn.gov",
+    "Website": "Tule River Indian Reservation"
+  },
+  {
+    "Nation": "Pacific",
+    "Region": "Federal",
+    "Recognition": "PO Box 589, Porterville, CA93258-0589",
+    "Address": "http://www.tulerivertribe-nsn.gov",
+    "Website": "Tuluksak Native Community (IRA)"
+  },
+  {
+    "Nation": "Alaska",
+    "Region": "Federal",
+    "Recognition": "PO Box 95, Tuluksak, AK99679-0095",
+    "Address": "",
+    "Website": "Tunica-Biloxi Tribe of Louisiana"
+  },
+  {
+    "Nation": "Southeast",
+    "Region": "Federal",
+    "Recognition": "PO Box 1589, Marksville, LA71351-1589",
+    "Address": "http://www.tunicabiloxi.org",
+    "Website": "Tununak Council (IRA)"
+  },
+  {
+    "Nation": "Alaska",
+    "Region": "Federal",
+    "Recognition": "PO Box 77, Tununak, AK99681-0077",
+    "Address": "",
+    "Website": "Tuolumne Me-Wuk Tribe"
+  },
+  {
+    "Nation": "Pacific",
+    "Region": "Federal",
+    "Recognition": "PO Box 699, Tuolumne, CA95379-0699",
+    "Address": "http://www.mewuk.com",
+    "Website": "Turtle Mountain Band of Chippewa Indians"
+  },
+  {
+    "Nation": "Great Plains",
+    "Region": "Federal",
+    "Recognition": "PO Box 900, Belcourt, ND58316-0900",
+    "Address": "https://tmchippewa.com/",
+    "Website": "Tuscarora Nation"
+  },
+  {
+    "Nation": "Northeast",
+    "Region": "Federal",
+    "Recognition": "2006 Mt Hope Road, Via: Lewistown, NY",
+    "Address": "",
+    "Website": "Twenty-Nine Palms Band of Mission Indians"
+  },
+  {
+    "Nation": "Pacific",
+    "Region": "Federal",
+    "Recognition": "46200 Harrison Place, Coachella, CA92236-2031",
+    "Address": "",
+    "Website": "Twin Hills Village Council"
+  },
+  {
+    "Nation": "Alaska",
+    "Region": "Federal",
+    "Recognition": "PO Box 4061, Twin Hills, AK99576-8996",
+    "Address": "",
+    "Website": "Ugashik Traditional Village Council"
+  },
+  {
+    "Nation": "Alaska",
+    "Region": "Federal",
+    "Recognition": "2525 Bluebery Road, Suite 205, Anchorage, AK99503-2733",
+    "Address": "http://www.ugashikvillage.com",
+    "Website": "Umkumiut Native Village"
+  },
+  {
+    "Nation": "Alaska",
+    "Region": "Federal",
+    "Recognition": "PO Box 90062, Nightmute, AK99690-0062",
+    "Address": "",
+    "Website": "Unga Tribal Council"
+  },
+  {
+    "Nation": "Alaska",
+    "Region": "Federal",
+    "Recognition": "PO Box 508, Sand Point, AK99661-0508",
+    "Address": "",
+    "Website": ""
+  },
+  {
+    "Nation": "United Auburn Indian Community",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "10720 Indian Hill Rd, Auburn, CA95603-9403",
+    "Website": "http://www.auburnrancheria.com"
+  },
+  {
+    "Nation": "United Cherokee Ani-Yun-Wiya Nation",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "PO Box 754, Guntersville, AL35976-9347",
+    "Website": "http://www.ucan-online.org"
+  },
+  {
+    "Nation": "United Houma Nation",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "20986 Highway 1, Golden Meadow, LA70357-5208",
+    "Website": "http://www.unitedhoumanation.org"
+  },
+  {
+    "Nation": "United Keetoowah Band of Cherokee Indians",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "PO Box 746, Tahlequah, OK74465-0746",
+    "Website": "https://www.ukb-nsn.gov/"
+  },
+  {
+    "Nation": "Unkechaug Indian Nation",
+    "Region": "Northeast",
+    "Recognition": "State",
+    "Address": "207 Poospatuck Ln, Mastic, NY11950-5201",
+    "Website": ""
+  },
+  {
+    "Nation": "Upper Mattaponi Tribe",
+    "Region": "Southeast",
+    "Recognition": "Federal",
+    "Address": "5932 East River Road, King William, VA23086",
+    "Website": "http://www.uppermattaponi.org"
+  },
+  {
+    "Nation": "Upper Sioux Community",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 147, Granite Falls, MN56241-0147",
+    "Website": "http://www.uppersiouxcommunity-nsn.gov"
+  },
+  {
+    "Nation": "Upper Skagit Indian Tribe",
+    "Region": "Northwest",
+    "Recognition": "Federal",
+    "Address": "25944 Community Plaza Way, Sedro Woolley, WA98284-9721",
+    "Website": ""
+  },
+  {
+    "Nation": "Ute Indian Tribe - Uintah & Ouray",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 190, Ft. Duchesne, UT84026",
+    "Website": "http://www.utetribe.com"
+  },
+  {
+    "Nation": "Ute Mountain Ute Tribe",
+    "Region": "Southwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 189, Towaoc, CO81334-0188",
+    "Website": ""
+  },
+  {
+    "Nation": "Venetie Village Council",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 81119, Venetie, AK99781-0119",
+    "Website": ""
+  },
+  {
+    "Nation": "Viejas Band of Kumeyaay Indians",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "1 Viejas Grade Road, Alpine, CA91901-1605",
+    "Website": "http://viejasbandofkumeyaay.org/"
+  },
+  {
+    "Nation": "Village of Alakanuk",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 149, Alakanuk, AK99554-0149",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Anaktuvuk Pass",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 21157, Anaktuvuk Pass, AK99721-0065",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Bill Moore's Slough",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 20288, Kotlik, AK99620-0288",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Chefornak",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 110, Chefornak, AK99561-0110",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Clarks Point",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 90, Clarks Point, AK99569-0090",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Dot Lake",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 70494, Fairbanks, AK99701",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Iliamna",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 286, Iliamna, AK99606-0286",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Kalskag",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 50, Kalskag, AK99607-0050",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Kotlik",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 20210, Kotlik, AK99620-0210",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Lower Kalskag",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 27, Lower Kalskag, AK99626-0027",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Ohogamiut",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 49, Marshall, AK99585-0049",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Old Harbor",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 62, Old Harbor, AK99643-0062",
+    "Website": "http://www.oldharbortribal.org"
+  },
+  {
+    "Nation": "Village of Red Devil",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 61, Red Devil, AK99656-0061",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Salamatoff",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 2682, Kenai, AK99611-2682",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Sleetmute",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 109, Sleetmute, AK99668-0109",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Solomon",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 2053, Nome, AK99762-2053",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Stony River",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box SRV Birch Road, Stony River, AK99557-8998",
+    "Website": ""
+  },
+  {
+    "Nation": "Village of Wainwright",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 143, Wainwright, AK99782",
+    "Website": ""
+  },
+  {
+    "Nation": "Waccamaw Siouan Tribe",
+    "Region": "Southeast",
+    "Recognition": "State",
+    "Address": "PO Box 69, Bolton, NC28423-0069",
+    "Website": "http://www.waccamaw-siouan.com"
+  },
+  {
+    "Nation": "Walker River Paiute Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 220, Schurz, NV89427-0220",
+    "Website": "http://www.wrpt.us"
+  },
+  {
+    "Nation": "Wampanoag Tribe of Gay Head (Aquinnah)",
+    "Region": "Northeast",
+    "Recognition": "Federal",
+    "Address": "20 Black Brook Rd, Aquinnah, MA02535-1546",
+    "Website": "http://www.wampanoagtribe.net"
+  },
+  {
+    "Nation": "Washoe Tribes of Nevada and California",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "919 US Highway 395 South, Gardnerville, NV89410-8968",
+    "Website": "http://www.washoetribe.us"
+  },
+  {
+    "Nation": "Wells Indian Colony Band Council",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 809, Wells, NV89835-0809",
+    "Website": ""
+  },
+  {
+    "Nation": "White Earth Reservation Business Committee",
+    "Region": "Midwest",
+    "Recognition": "Federal",
+    "Address": "PO Box 418, White Earth, MN56591-0418",
+    "Website": "http://www.whiteearth.com"
+  },
+  {
+    "Nation": "White Mountain Apache Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "PO Box 700, Whiteriver, AZ85941-0700",
+    "Website": "http://www.wmat.nsn.us"
+  },
+  {
+    "Nation": "Wichita and Affiliated Tribes",
+    "Region": "Southern Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 729, Anadarko, OK73005-0729",
+    "Website": "http://www.wichitatribe.com"
+  },
+  {
+    "Nation": "Wilton Rancheria",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "9300 Wesf Stockton Boulevard, Suite 200, Elk Grove, CA95758",
+    "Website": ""
+  },
+  {
+    "Nation": "Winnebago Tribe of Nebraska",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 687, Winnebago, NE68071-0687",
+    "Website": "http://www.winnebagotribe.com"
+  },
+  {
+    "Nation": "Winnemucca Indian Colony Council",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "595 Humbolt Street, Reno, NV89509",
+    "Website": ""
+  },
+  {
+    "Nation": "Wiyot Tribe",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "1000 Wiyot Dr, Loleta, CA95551-9640",
+    "Website": "http://www.wiyot.com"
+  },
+  {
+    "Nation": "Woodfords Community Council",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "919 Hwy, 395 South, Gardnerville, NV89410",
+    "Website": ""
+  },
+  {
+    "Nation": "Wrangell Cooperative Association (IRA)",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 2331, Wrangell, AK99929-2021",
+    "Website": "http://www.wrangell.com"
+  },
+  {
+    "Nation": "Wyandotte Nation",
+    "Region": "Eastern Oklahoma",
+    "Recognition": "Federal",
+    "Address": "64700 E Highway 60, Wyandotte, OK74370-2098",
+    "Website": "http://www.wyandotte-nation.org"
+  },
+  {
+    "Nation": "Yakutat Tlingit Tribe",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 418, Yakutat, AK99689-0418",
+    "Website": "http://www.ytttribe.org"
+  },
+  {
+    "Nation": "Yankton Sioux Tribe",
+    "Region": "Great Plains",
+    "Recognition": "Federal",
+    "Address": "PO Box 1153, Wagner, SD57380-1153",
+    "Website": "https://www.yanktonsiouxtribe.net/"
+  },
+  {
+    "Nation": "Yavapai-Apache Nation",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "2400 W Datsi, Camp Verde, AZ86322-8412",
+    "Website": "http://www.yavapai-apache.org"
+  },
+  {
+    "Nation": "Yavapai-Prescott Indian Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "530 E Merritt, Prescott, AZ86301-2038",
+    "Website": ""
+  },
+  {
+    "Nation": "Yerington Paiute Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "171 Campbell Lane, Yerington, NV89447-9731",
+    "Website": ""
+  },
+  {
+    "Nation": "Yocha Dene Wintun Nation",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 18, Brooks, CA95606-0018",
+    "Website": "http://www.yochadehe.org"
+  },
+  {
+    "Nation": "Yomba Shoshone Tribe",
+    "Region": "Western",
+    "Recognition": "Federal",
+    "Address": "HC 61 Box 6275, Austin, NV89310-9302",
+    "Website": "http://www.yombatribe.org"
+  },
+  {
+    "Nation": "Yupiit of Andreafski",
+    "Region": "Alaska",
+    "Recognition": "Federal",
+    "Address": "PO Box 88, St. Mary's, AK99658-0088",
+    "Website": ""
+  },
+  {
+    "Nation": "Yurok Tribe",
+    "Region": "Pacific",
+    "Recognition": "Federal",
+    "Address": "PO Box 1027, Klamath, CA95548-1027",
+    "Website": "http://www.yuroktribe.org"
+  }
+]

@@ -1,9 +1,52 @@
 use regex::Regex;
 use select::document::Document;
 use select::predicate::{Attr, Class, Name};
+use serde::{Deserialize, Serialize};
 use std::error::Error;
+use std::fs;
 
-pub fn select_html(res: &str) -> Vec<String> {
+#[derive(Serialize, Deserialize, Debug)]
+struct Nation {
+    #[serde(alias = "Nation")]
+    nation: String,
+    #[serde(alias = "Region")]
+    region: String,
+    #[serde(alias = "Recognition")]
+    recognition: String,
+    #[serde(alias = "Address")]
+    address: String,
+    #[serde(alias = "Website")]
+    website: String,
+}
+
+pub fn sites_with_nsngov() {
+    let str = fs::read_to_string("tribes.json").expect("Unable to read file");
+    let data: Vec<Nation> = serde_json::from_str(&str).unwrap();
+
+    let mut number_of_nations = 0;
+    let mut number_of_websites = 0;
+    let mut number_of_websites_with_nsn = 0;
+
+    for nation in data.iter() {
+        if nation.recognition == "Federal" {
+            number_of_nations += 1;
+
+            if !nation.website.is_empty() {
+                number_of_websites += 1;
+
+                if nation.website.contains("-nsn.gov") {
+                    number_of_websites_with_nsn += 1;
+                }
+            }
+        }
+    }
+
+    println!("nation: {}", number_of_nations);
+    println!("with sites: {}", number_of_websites);
+    println!("with nsn-gov: {}", number_of_websites_with_nsn);
+}
+
+pub fn select_html(res: &str) -> Vec<Vec<String>> {
     /* Scrape tribal information based on this HTML structure:
         <article class="clearfix"
           <h2> {name} <span> {specifier} </span> </h2>
@@ -21,11 +64,11 @@ pub fn select_html(res: &str) -> Vec<String> {
 
     /* Iterate on article tags to pluck out the gov information */
     for node in articles.into_iter() {
-        /* Get name with region */
+        /* Get nation with region */
         let name = node.find(Name("h2")).next().unwrap().text();
         let name_vec: Vec<&str> = name.split("[").collect();
 
-        /* Get name without region */
+        /* Get nation without region */
         let name_without_region: &str = name_vec.get(0).map(|v| v.as_ref()).unwrap();
         data.push(name_without_region.trim_end().to_owned());
 
@@ -41,20 +84,33 @@ pub fn select_html(res: &str) -> Vec<String> {
         let recog_regex = Regex::new(r"Recognition Status: (\w+)").unwrap();
         let contact = node.find(Name("p")).next().unwrap().text();
         for status in recog_regex.captures_iter(&contact) {
-            let res = status.get(1).map_or("No Status", |m| m.as_str());
+            let res = status.get(1).map_or("", |m| m.as_str());
             data.push(res.to_owned());
         }
 
         /* Get website */
-        let web_regex = Regex::new(r"Website: ([\s\S]*)").unwrap();
         let info = node.find(Attr("class", "right")).next().unwrap().text();
-        for site in web_regex.captures_iter(&info) {
-            let copy = site.get(1).map_or("No Website", |m| m.as_str());
-            data.push(copy.to_owned());
+        let mut contact_vec: Vec<&str> = info.split('\n').map(|v| v.trim()).collect();
+        let website = contact_vec.split_off(2);
+
+        let address = contact_vec.join(", ");
+
+        println!("{:?}", address);
+
+        /* Get address */
+        data.push(address.to_owned());
+
+        /* Get website */
+        unsafe {
+            let site = website.join(" ");
+            let slice = site.get_unchecked(8..);
+            data.push(slice.trim().to_owned());
         }
     }
 
-    data
+    let chunks = data.chunks(5).map(|c| c.into()).collect();
+
+    chunks
 }
 
 /*
@@ -68,7 +124,7 @@ pub async fn scrape_tribal_dir() -> Result<(), Box<dyn Error>> {
         .from_path("tribes.csv")?;
 
     /* Create columns for csv */
-    wtr.write_record(&["Nation", "Region", "Recognition", "Website"])?;
+    wtr.write_record(&["Nation", "Region", "Recognition", "Address", "Website"])?;
 
     for number in 1..=26 {
         /* Fetch html from ncai tribal directory from pages 1 - 26 (# of letters in alphabet)  */
@@ -83,7 +139,9 @@ pub async fn scrape_tribal_dir() -> Result<(), Box<dyn Error>> {
         let data = select_html(&res);
 
         /* Write data to tribes.csv */
-        wtr.write_record(&data)?;
+        for d in data.iter() {
+            wtr.write_record(d)?
+        }
     }
 
     wtr.flush()?;
