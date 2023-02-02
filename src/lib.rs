@@ -66,22 +66,20 @@ pub fn select_html(res: &str) -> Vec<Vec<String>> {
     for node in articles.into_iter() {
         /* Get nation with region */
         let name = node.find(Name("h2")).next().unwrap().text();
-        let name_vec: Vec<&str> = name.split("[").collect();
+        let name_vec: Vec<&str> = name.split('[').collect();
 
         /* Get nation without region */
         let name_without_region: String = name_vec
-            .get(0)
-            .map(|v| v.as_ref())
-            .map(|v: &str| v.trim_end())
+            .first()
+            .map(|v: &&str| v.trim_end())
             .unwrap_or("")
             .to_owned();
         data.push(name_without_region);
 
         /* Get region */
         let region: String = name_vec
-            .get(1)
-            .map(|v| v.as_ref())
-            .map(|v: &str| v.trim_end_matches(|c| c == ' ' || c == ']' || c == '\n'))
+            .first()
+            .map(|v: &&str| v.trim_end_matches(|c| c == ' ' || c == ']' || c == '\n'))
             .unwrap_or("")
             .to_owned();
         data.push(region);
@@ -94,9 +92,8 @@ pub fn select_html(res: &str) -> Vec<Vec<String>> {
             .map(|v| v.trim())
             .collect();
         let status: String = recognition_vec
-            .get(0)
-            .map(|v| v.as_ref())
-            .and_then(|v: &str| v.get(20..))
+            .first()
+            .and_then(|v: &&str| v.get(20..))
             .unwrap_or("")
             .to_owned();
         data.push(status);
