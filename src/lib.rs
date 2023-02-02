@@ -69,43 +69,62 @@ pub fn select_html(res: &str) -> Vec<Vec<String>> {
         let name_vec: Vec<&str> = name.split("[").collect();
 
         /* Get nation without region */
-        let name_without_region: &str = name_vec.get(0).map(|v| v.as_ref()).unwrap();
-        data.push(name_without_region.trim_end().to_owned());
+        let name_without_region: String = name_vec
+            .get(0)
+            .map(|v| v.as_ref())
+            .map(|v: &str| v.trim_end())
+            .unwrap_or("")
+            .to_owned();
+        data.push(name_without_region);
 
         /* Get region */
-        let region: &str = name_vec.get(1).map(|v| v.as_ref()).unwrap();
-        data.push(
-            region
-                .trim_end_matches(|c| c == ' ' || c == ']' || c == '\n')
-                .to_owned(),
-        );
+        let region: String = name_vec
+            .get(1)
+            .map(|v| v.as_ref())
+            .map(|v: &str| v.trim_end_matches(|c| c == ' ' || c == ']' || c == '\n'))
+            .unwrap_or("")
+            .to_owned();
+        data.push(region);
 
         /* Get recognition */
-        let recog_regex = Regex::new(r"Recognition Status: (\w+)").unwrap();
         let contact = node.find(Name("p")).next().unwrap().text();
-        for status in recog_regex.captures_iter(&contact) {
-            let res = status.get(1).map_or("", |m| m.as_str());
-            data.push(res.to_owned());
-        }
+        let recognition_vec: Vec<&str> = contact
+            .split('\n')
+            .filter(|v| v.contains("Recognition"))
+            .map(|v| v.trim())
+            .collect();
+        let status: String = recognition_vec
+            .get(0)
+            .map(|v| v.as_ref())
+            .and_then(|v: &str| v.get(20..))
+            .unwrap_or("")
+            .to_owned();
+        data.push(status);
 
         /* Get website */
         let info = node.find(Attr("class", "right")).next().unwrap().text();
         let mut contact_vec: Vec<&str> = info.split('\n').map(|v| v.trim()).collect();
         let website = contact_vec.split_off(2);
 
-        let address = contact_vec.join(", ");
-
-        println!("{:?}", address);
-
         /* Get address */
-        data.push(address.to_owned());
+        let address = contact_vec.join(", ");
+        let address_regex = Regex::new(
+            r"(?P<addr>[\w|\W]+),\s(?P<city>[\w|\W]+),\s(?P<state>[A-Z]{2})(?P<zip>\d+|\d+\-\d+)",
+        )
+        .unwrap();
+        let next_addr = address_regex
+            .replace_all(&address, "$addr $city, $state $zip")
+            .to_string();
+        data.push(next_addr);
 
         /* Get website */
-        unsafe {
-            let site = website.join(" ");
-            let slice = site.get_unchecked(8..);
-            data.push(slice.trim().to_owned());
-        }
+        let site = website
+            .join(" ")
+            .get(8..)
+            .map(|v| v.trim())
+            .unwrap_or("")
+            .to_owned();
+        data.push(site);
     }
 
     let chunks = data.chunks(5).map(|c| c.into()).collect();

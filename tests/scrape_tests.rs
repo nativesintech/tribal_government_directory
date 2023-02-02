@@ -10,7 +10,7 @@ fn scrape_test() {
         "Absentee-Shawnee Tribe of Indians of Oklahoma", // Nation
         "Southern Plains",                               // Region
         "Federal",                                       // Recognition
-        "2025 S. Gordon Cooper Drive, Shawnee, OK74801-9005", // Address
+        "2025 S. Gordon Cooper Drive Shawnee, OK 74801-9005", // Address
         "http://www.astribe.com",                        // Website (if one)
     ]
     .into_iter()
