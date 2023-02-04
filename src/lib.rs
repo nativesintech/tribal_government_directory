@@ -26,6 +26,7 @@ pub fn sites_with_nsngov() {
     let mut number_of_nations = 0;
     let mut number_of_websites = 0;
     let mut number_of_websites_with_nsn = 0;
+    let mut number_of_https = 0;
 
     for nation in data.iter() {
         if nation.recognition == "Federal" {
@@ -34,6 +35,10 @@ pub fn sites_with_nsngov() {
             if !nation.website.is_empty() {
                 number_of_websites += 1;
 
+                if nation.website.starts_with("https") {
+                    number_of_https += 1;
+                }
+
                 if nation.website.contains("-nsn.gov") {
                     number_of_websites_with_nsn += 1;
                 }
@@ -41,9 +46,10 @@ pub fn sites_with_nsngov() {
         }
     }
 
-    println!("nation: {}", number_of_nations);
-    println!("with sites: {}", number_of_websites);
-    println!("with nsn-gov: {}", number_of_websites_with_nsn);
+    println!("nation: {number_of_nations}");
+    println!("with sites: {number_of_websites}",);
+    println!("with nsn-gov: {number_of_websites_with_nsn}",);
+    println!("with https: {number_of_https}",)
 }
 
 pub fn select_html(res: &str) -> Vec<Vec<String>> {
@@ -140,7 +146,7 @@ pub async fn scrape_tribal_dir() -> Result<(), Box<dyn Error>> {
         .from_path("tribes.csv")?;
 
     /* Create columns for csv */
-    wtr.write_record(&["Nation", "Region", "Recognition", "Address", "Website"])?;
+    wtr.write_record(["Nation", "Region", "Recognition", "Address", "Website"])?;
 
     for number in 1..=26 {
         /* Fetch html from ncai tribal directory from pages 1 - 26 (# of letters in alphabet)  */
