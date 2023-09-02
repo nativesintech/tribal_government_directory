@@ -1,0 +1,287 @@
+{
+  "total": 389,
+  "successful": 347,
+  "unknown": 0,
+  "unsupported": 0,
+  "timeouts": 5,
+  "redirects": 0,
+  "excludes": 0,
+  "errors": 37,
+  "cached": 0,
+  "success_map": {},
+  "fail_map": {
+    "tribes.csv": [
+      {
+        "url": "http://www.umatilla.nsn.us/",
+        "status": {
+          "text": "Timeout"
+        }
+      },
+      {
+        "url": "http://www.miccosukeetribe.com/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.elwha.org/home.html",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 404
+        }
+      },
+      {
+        "url": "http://www.sctca.net/ewiiaapaayp-band-kumeyaay-indians",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 404
+        }
+      },
+      {
+        "url": "http://www.stcciw.com/",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 403
+        }
+      },
+      {
+        "url": "https://cheroenhaka-nottoway.org/home.htm",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 404
+        }
+      },
+      {
+        "url": "http://www.ramapoughlenapenation.org/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.lrboi.com/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.tulerivertribe-nsn.gov/",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 404
+        }
+      },
+      {
+        "url": "https://www.fourwindscherokee.com/",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 403
+        }
+      },
+      {
+        "url": "http://www.havasupaitribe.com/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.prairieisland.org/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.shoshonebannocktribes.com/",
+        "status": {
+          "text": "Timeout"
+        }
+      },
+      {
+        "url": "http://www.cowcreek.com/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.portgraham.org/",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 403
+        }
+      },
+      {
+        "url": "http://www.upperlakepomo.com/",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 503
+        }
+      },
+      {
+        "url": "http://californiavalleymiwok.us/",
+        "status": {
+          "text": "Timeout"
+        }
+      },
+      {
+        "url": "http://www.caddonation-nsn.gov/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.nooksacktribe.org/",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 404
+        }
+      },
+      {
+        "url": "http://www.washoetribe.us/",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 404
+        }
+      },
+      {
+        "url": "http://www.sioux.org/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://cahuilla.net/index.html",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 404
+        }
+      },
+      {
+        "url": "http://www.pojoaque.com/",
+        "status": {
+          "text": "Timeout"
+        }
+      },
+      {
+        "url": "http://www.kakefirstnation.org/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.sancarlosapache.com/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.santeesioux.com/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.hopi.nsn.us/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "https://www.omahatribe.com/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.chemehuevi.net/",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 530
+        }
+      },
+      {
+        "url": "http://sdtribalrelations.com/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.lajollaindians.com/",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 404
+        }
+      },
+      {
+        "url": "http://www.puyalluptribe.com/",
+        "status": {
+          "text": "Timeout"
+        }
+      },
+      {
+        "url": "http://iowatribeofkansasnebraska.com/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.machistribe.com/",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 403
+        }
+      },
+      {
+        "url": "http://inupiatgov.com/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.ionemiwok.org/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.stillaguamish.nsn.us/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.nwbshoshone-nsn.gov/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.sacandfoxks.com/sacfox.nsf",
+        "status": {
+          "text": "Failed: Network error",
+          "code": 404
+        }
+      },
+      {
+        "url": "http://www.pbpnation.org/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.wichitatribe.com/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      },
+      {
+        "url": "http://www.chuloonawick.org/",
+        "status": {
+          "text": "Failed: Network error"
+        }
+      }
+    ]
+  },
+  "suggestion_map": {},
+  "excluded_map": {},
+  "duration_secs": 82,
+  "detailed_stats": false
+}

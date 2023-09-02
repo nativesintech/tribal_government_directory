@@ -1,65 +1,18 @@
 use regex::Regex;
+use reqwest::StatusCode;
 use select::document::Document;
 use select::predicate::{Attr, Class, Name};
 use serde::{Deserialize, Serialize};
 use std::error::Error;
 use std::fs;
 
-#[derive(Serialize, Deserialize, Debug)]
-struct Nation {
-    #[serde(alias = "Nation")]
-    nation: String,
-    #[serde(alias = "Region")]
-    region: String,
-    #[serde(alias = "Recognition")]
-    recognition: String,
-    #[serde(alias = "Address")]
-    address: String,
-    #[serde(alias = "Website")]
-    website: String,
-}
-
-pub fn sites_with_nsngov() {
-    let str = fs::read_to_string("tribes.json").expect("Unable to read file");
-    let data: Vec<Nation> = serde_json::from_str(&str).unwrap();
-
-    let mut number_of_nations = 0;
-    let mut number_of_websites = 0;
-    let mut number_of_websites_with_nsn = 0;
-    let mut number_of_https = 0;
-
-    for nation in data.iter() {
-        if nation.recognition == "Federal" {
-            number_of_nations += 1;
-
-            if !nation.website.is_empty() {
-                number_of_websites += 1;
-
-                if nation.website.starts_with("https") {
-                    number_of_https += 1;
-                }
-
-                if nation.website.contains("-nsn.gov") {
-                    number_of_websites_with_nsn += 1;
-                }
-            }
-        }
-    }
-
-    println!("nation: {number_of_nations}");
-    println!("with sites: {number_of_websites}",);
-    println!("with nsn-gov: {number_of_websites_with_nsn}",);
-    println!("with https: {number_of_https}",)
-}
-
+/// Scrape tribal information based on this HTML structure:
+///   <article class="clearfix"
+///     <h2> {name} <span> {specifier} </span> </h2>
+///     <p>  {contact} ... Recognition Status: {status: federal/state} </p>
+///     <p class="right"> {address} ... Website: {website} </p>
+///   </article>
 pub fn select_html(res: &str) -> Vec<Vec<String>> {
-    /* Scrape tribal information based on this HTML structure:
-        <article class="clearfix"
-          <h2> {name} <span> {specifier} </span> </h2>
-          <p>  {contact} ... Recognition Status: {status: federal/state} </p>
-          <p class="right"> {address} ... Website: {website} </p>
-        </article>
-    */
     let document = Document::from(res);
     let articles = document
         .find(Name("article"))
@@ -135,10 +88,8 @@ pub fn select_html(res: &str) -> Vec<Vec<String>> {
     chunks
 }
 
-/*
-  Go to the page for the tribal directory: https://www.ncai.org/tribal-directory?page=1
-  and output the data into a CSV
-*/
+/// Go to the page for the tribal directory (https://www.ncai.org/tribal-directory?page=1)
+/// and output the data into a CSV
 pub async fn scrape_tribal_dir() -> Result<(), Box<dyn Error>> {
     /* Create writer */
     let mut wtr = csv::WriterBuilder::new()
@@ -167,5 +118,121 @@ pub async fn scrape_tribal_dir() -> Result<(), Box<dyn Error>> {
     }
 
     wtr.flush()?;
+    Ok(())
+}
+
+#[derive(Serialize, Deserialize, Debug)]
+struct Nation {
+    #[serde(alias = "Nation")]
+    nation: String,
+    #[serde(alias = "Region")]
+    region: String,
+    #[serde(alias = "Recognition")]
+    recognition: String,
+    #[serde(alias = "Address")]
+    address: String,
+    #[serde(alias = "Website")]
+    website: String,
+}
+
+/// Take the JSON and do some simple analytics
+pub fn sites_with_nsngov() {
+    let str = fs::read_to_string("tribes.json").expect("Unable to read file");
+    let data: Vec<Nation> = serde_json::from_str(&str).unwrap();
+
+    let mut number_of_nations = 0;
+    let mut number_of_websites = 0;
+    let mut number_of_websites_with_nsn = 0;
+    let mut number_of_https = 0;
+
+    for nation in data.iter() {
+        if nation.recognition == "Federal" {
+            number_of_nations += 1;
+
+            if !nation.website.is_empty() {
+                number_of_websites += 1;
+
+                if nation.website.starts_with("https") {
+                    number_of_https += 1;
+                }
+
+                if nation.website.contains(".gov") {
+                    number_of_websites_with_nsn += 1;
+                }
+            }
+        }
+    }
+
+    println!("nation: {number_of_nations}");
+    println!("with sites: {number_of_websites}",);
+    println!("with nsn-gov: {number_of_websites_with_nsn}",);
+    println!("with https: {number_of_https}",)
+}
+
+/// Go through the websites and see which ones work and which ones redirect
+pub async fn check_websites() -> Result<(), Box<dyn Error>> {
+    let str = fs::read_to_string("tribes.json").expect("Unable to read file");
+    let data: Vec<Nation> = serde_json::from_str(&str).unwrap();
+
+    for nation in data.iter() {
+        let site = &nation.website;
+
+        if site.is_empty() {
+            continue;
+        }
+
+        if nation.recognition != "Federal" {
+            continue;
+        }
+
+        let res = reqwest::get(site).await;
+
+        match res {
+            Ok(resp) => {
+                let status = resp.status();
+                let headers = resp.headers();
+
+                match status {
+                    StatusCode::MOVED_PERMANENTLY => {
+                        let location = headers.get("Location").unwrap().to_str().unwrap();
+                        println!("site: {site}, status: Moved Permanently, location: {location}");
+                    }
+                    StatusCode::TEMPORARY_REDIRECT => {
+                        let location = headers.get("Location").unwrap().to_str().unwrap();
+                        println!("site: {site}, status: Temporary Redirect, location: {location}");
+                    }
+                    StatusCode::PERMANENT_REDIRECT => {
+                        let location = headers.get("Location").unwrap().to_str().unwrap();
+                        println!("site: {site}, status: Permanent Redirect, location: {location}");
+                    }
+                    StatusCode::BAD_GATEWAY => {
+                        println!("site: {site}, status: Bad Gateway");
+                    }
+                    StatusCode::BAD_REQUEST => {
+                        println!("site: {site}, status: Bad Request");
+                    }
+                    StatusCode::GATEWAY_TIMEOUT => {
+                        println!("site: {site}, status: Gateway Timeout");
+                    }
+                    StatusCode::INTERNAL_SERVER_ERROR => {
+                        println!("site: {site}, status: Internal Server Error");
+                    }
+                    StatusCode::SERVICE_UNAVAILABLE => {
+                        println!("site: {site}, status: Service Unavailable");
+                    }
+                    StatusCode::OK => continue,
+                    _ => {
+                        println!("site: {site}, status: {status}");
+                    }
+                }
+            }
+            Err(err) => {
+                let str_err = err.to_string();
+                println!("site: {site}, error: {str_err}");
+                continue;
+            }
+        }
+    }
+
     Ok(())
 }
