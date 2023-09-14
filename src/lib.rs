@@ -1,3 +1,4 @@
+use cli_table::{format::Justify, print_stdout, Cell, Style, Table};
 use regex::Regex;
 use reqwest::StatusCode;
 use select::document::Document;
@@ -5,6 +6,9 @@ use select::predicate::{Attr, Class, Name};
 use serde::{Deserialize, Serialize};
 use std::error::Error;
 use std::fs;
+use std::ops::Deref;
+
+pub mod args;
 
 /// Scrape tribal information based on this HTML structure:
 ///   <article class="clearfix"
@@ -133,6 +137,93 @@ struct Nation {
     address: String,
     #[serde(alias = "Website")]
     website: String,
+}
+
+/// Take the CSV data and output all the governments
+pub fn list_govts() {
+    let mut rdr = csv::Reader::from_path("./tribes.csv").expect("File tribes.csv does not exist");
+    let mut table = Vec::new();
+    for n in rdr.deserialize() {
+        let nation: Nation = n.unwrap();
+        let row = vec![nation.nation.cell().justify(Justify::Left)];
+        table.push(row);
+    }
+
+    let t = table
+        .table()
+        .title(vec!["Name".cell().bold(true)])
+        .display()
+        .unwrap();
+
+    println!("{}", t);
+}
+
+pub fn filter_govts(filter: &args::WebsiteFilter) {
+    let mut rdr = csv::Reader::from_path("./tribes.csv").expect("File tribes.csv does not exist");
+    let mut data = Vec::new();
+
+    for n in rdr.deserialize() {
+        let nation: Nation = n.unwrap();
+        data.push(nation);
+    }
+
+    match filter {
+        args::WebsiteFilter::DotGov => {
+            data = data
+                .into_iter()
+                .filter(|d| d.website.ends_with(".gov"))
+                .collect();
+        }
+        args::WebsiteFilter::DotCom => {
+            data = data
+                .into_iter()
+                .filter(|d| d.website.ends_with(".com"))
+                .collect();
+        }
+        args::WebsiteFilter::DotOrg => {
+            data = data
+                .into_iter()
+                .filter(|d| d.website.ends_with(".org"))
+                .collect();
+        }
+        args::WebsiteFilter::DotNet => {
+            data = data
+                .into_iter()
+                .filter(|d| d.website.ends_with(".net"))
+                .collect();
+        }
+        args::WebsiteFilter::Http => {
+            data = data
+                .into_iter()
+                .filter(|d| d.website.starts_with("http:"))
+                .collect();
+        }
+        args::WebsiteFilter::Https => {
+            data = data
+                .into_iter()
+                .filter(|d| d.website.starts_with("https:"))
+                .collect();
+        }
+        args::WebsiteFilter::Failing => {}
+    }
+
+    let mut table = Vec::new();
+
+    for nation in &data {
+        let row = vec![
+            nation.nation.as_str().cell().justify(Justify::Left),
+            nation.website.as_str().cell().justify(Justify::Left),
+        ];
+        table.push(row);
+    }
+
+    let t = table
+        .table()
+        .title(vec!["Name".cell().bold(true), "Website".cell().bold(true)])
+        .display()
+        .unwrap();
+
+    println!("{}", t);
 }
 
 /// Take the JSON and do some simple analytics
