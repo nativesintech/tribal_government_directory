@@ -41,7 +41,10 @@ async fn main() -> Result<(), Box<dyn Error>> {
         args::Commands::Stats { filter } => match &filter {
             _ => stats(filter),
         },
-        args::Commands::Update { latest: _ } => {
+        args::Commands::Update {
+            latest: _,
+            force: _,
+        } => {
             scrape_tribal_dir().await?;
         }
     }
