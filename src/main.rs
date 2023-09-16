@@ -1,6 +1,6 @@
 use clap::Parser;
 use std::error::Error;
-use tgd::{args, filter_govts, list_govts};
+use tgd::{args, filter_govts, list_govts, scrape_tribal_dir, stats};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
@@ -34,13 +34,16 @@ async fn main() -> Result<(), Box<dyn Error>> {
             (None, None, None) => {
                 list_govts();
             }
-            (Some(filter), None, None) => {
-                filter_govts(filter);
+            (filter, state, name) => {
+                filter_govts(filter, state, name);
             }
-            (None, Some(state), None) => {}
-            (Some(website), Some(state), Some(name)) => {}
-            _ => {}
         },
+        args::Commands::Stats { filter } => match &filter {
+            _ => stats(filter),
+        },
+        args::Commands::Update { latest: _ } => {
+            scrape_tribal_dir().await?;
+        }
     }
 
     Ok(())

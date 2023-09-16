@@ -1,4 +1,4 @@
-use cli_table::{format::Justify, print_stdout, Cell, Style, Table};
+use cli_table::{format::Justify, Cell, Style, Table};
 use regex::Regex;
 use reqwest::StatusCode;
 use select::document::Document;
@@ -6,7 +6,6 @@ use select::predicate::{Attr, Class, Name};
 use serde::{Deserialize, Serialize};
 use std::error::Error;
 use std::fs;
-use std::ops::Deref;
 
 pub mod args;
 
@@ -95,7 +94,9 @@ pub fn select_html(res: &str) -> Vec<Vec<String>> {
 /// Go to the page for the tribal directory (https://www.ncai.org/tribal-directory?page=1)
 /// and output the data into a CSV
 pub async fn scrape_tribal_dir() -> Result<(), Box<dyn Error>> {
+    // Check if tribes.csv exists, if it does, remove it and create a new file
     /* Create writer */
+    println!("💻 Requesting tribal directory from https://naci.org/tribal-directory");
     let mut wtr = csv::WriterBuilder::new()
         .flexible(true)
         .from_path("tribes.csv")?;
@@ -103,6 +104,7 @@ pub async fn scrape_tribal_dir() -> Result<(), Box<dyn Error>> {
     /* Create columns for csv */
     wtr.write_record(["Nation", "Region", "Recognition", "Address", "Website"])?;
 
+    println!("💿 Parsing HTML");
     for number in 1..=26 {
         /* Fetch html from ncai tribal directory from pages 1 - 26 (# of letters in alphabet)  */
         let res = reqwest::get(
@@ -122,6 +124,7 @@ pub async fn scrape_tribal_dir() -> Result<(), Box<dyn Error>> {
     }
 
     wtr.flush()?;
+    println!("💾 Saved file to ./tribes.csv");
     Ok(())
 }
 
@@ -158,8 +161,13 @@ pub fn list_govts() {
     println!("{}", t);
 }
 
-pub fn filter_govts(filter: &args::WebsiteFilter) {
-    let mut rdr = csv::Reader::from_path("./tribes.csv").expect("File tribes.csv does not exist");
+pub fn filter_govts(
+    filter: &Option<args::WebsiteFilter>,
+    state: &Option<String>,
+    name: &Option<String>,
+) {
+    let mut rdr = csv::Reader::from_path("./tribes.csv")
+        .expect("File tribes.csv does not exist. Run `tgd update`");
     let mut data = Vec::new();
 
     for n in rdr.deserialize() {
@@ -167,44 +175,56 @@ pub fn filter_govts(filter: &args::WebsiteFilter) {
         data.push(nation);
     }
 
-    match filter {
-        args::WebsiteFilter::DotGov => {
-            data = data
-                .into_iter()
-                .filter(|d| d.website.ends_with(".gov"))
-                .collect();
+    if let Some(n) = name {
+        data = data
+            .into_iter()
+            .filter(|nation| nation.nation.contains(n))
+            .collect();
+    }
+
+    if let Some(s) = state {
+        data = data.into_iter().filter(|n| n.address.contains(s)).collect();
+    }
+
+    if let Some(f) = filter {
+        match f {
+            args::WebsiteFilter::DotGov => {
+                data = data
+                    .into_iter()
+                    .filter(|n| n.website.ends_with(".gov"))
+                    .collect();
+            }
+            args::WebsiteFilter::DotCom => {
+                data = data
+                    .into_iter()
+                    .filter(|n| n.website.ends_with(".com"))
+                    .collect();
+            }
+            args::WebsiteFilter::DotOrg => {
+                data = data
+                    .into_iter()
+                    .filter(|n| n.website.ends_with(".org"))
+                    .collect();
+            }
+            args::WebsiteFilter::DotNet => {
+                data = data
+                    .into_iter()
+                    .filter(|n| n.website.ends_with(".net"))
+                    .collect();
+            }
+            args::WebsiteFilter::Http => {
+                data = data
+                    .into_iter()
+                    .filter(|n| n.website.starts_with("http:"))
+                    .collect();
+            }
+            args::WebsiteFilter::Https => {
+                data = data
+                    .into_iter()
+                    .filter(|n| n.website.starts_with("https:"))
+                    .collect();
+            }
         }
-        args::WebsiteFilter::DotCom => {
-            data = data
-                .into_iter()
-                .filter(|d| d.website.ends_with(".com"))
-                .collect();
-        }
-        args::WebsiteFilter::DotOrg => {
-            data = data
-                .into_iter()
-                .filter(|d| d.website.ends_with(".org"))
-                .collect();
-        }
-        args::WebsiteFilter::DotNet => {
-            data = data
-                .into_iter()
-                .filter(|d| d.website.ends_with(".net"))
-                .collect();
-        }
-        args::WebsiteFilter::Http => {
-            data = data
-                .into_iter()
-                .filter(|d| d.website.starts_with("http:"))
-                .collect();
-        }
-        args::WebsiteFilter::Https => {
-            data = data
-                .into_iter()
-                .filter(|d| d.website.starts_with("https:"))
-                .collect();
-        }
-        args::WebsiteFilter::Failing => {}
     }
 
     let mut table = Vec::new();
@@ -226,9 +246,143 @@ pub fn filter_govts(filter: &args::WebsiteFilter) {
     println!("{}", t);
 }
 
+pub fn stats(filter: &Option<args::WebsiteFilter>) {
+    let mut rdr = csv::Reader::from_path("./tribes.csv")
+        .expect("File tribes.csv does not exist. Run ``tgd update`");
+    let mut data = Vec::new();
+
+    let mut number_of_nations = 0;
+    let mut number_of_websites = 0;
+    let mut result = "".to_owned();
+    let mut percent_websites = "".to_owned();
+    let mut percent_nations = "".to_owned();
+
+    if let Some(f) = filter {
+        for n in rdr.deserialize() {
+            let nation: Nation = n.unwrap();
+            if nation.recognition == "Federal" {
+                number_of_nations += 1;
+
+                if !nation.website.is_empty() {
+                    number_of_websites += 1;
+                }
+            }
+            data.push(nation);
+        }
+
+        match f {
+            args::WebsiteFilter::DotGov => {
+                data = data
+                    .into_iter()
+                    .filter(|n| n.website.ends_with(".gov"))
+                    .collect();
+
+                result.push_str("sites with dot gov domains: ");
+                result.push_str(data.len().to_string().as_str());
+
+                let pw = data.len() * 100 / number_of_websites;
+                let pn = data.len() * 100 / number_of_nations;
+
+                percent_websites.push_str(pw.to_string().as_str());
+                percent_websites.push_str("%");
+                percent_nations.push_str(pn.to_string().as_str());
+                percent_nations.push_str("%");
+            }
+            args::WebsiteFilter::DotCom => {
+                data = data
+                    .into_iter()
+                    .filter(|n| n.website.ends_with(".com"))
+                    .collect();
+
+                result.push_str("sites with dot com domains: ");
+                result.push_str(data.len().to_string().as_str());
+
+                let pw = data.len() * 100 / number_of_websites;
+                let pn = data.len() * 100 / number_of_nations;
+
+                percent_websites.push_str(pw.to_string().as_str());
+                percent_nations.push_str(pn.to_string().as_str());
+            }
+            args::WebsiteFilter::DotOrg => {
+                data = data
+                    .into_iter()
+                    .filter(|n| n.website.ends_with(".org"))
+                    .collect();
+
+                result.push_str("sites with dot org domains: ");
+                result.push_str(data.len().to_string().as_str());
+
+                let pw = data.len() * 100 / number_of_websites;
+                let pn = data.len() * 100 / number_of_nations;
+
+                percent_websites.push_str(pw.to_string().as_str());
+                percent_websites.push_str("%");
+                percent_nations.push_str(pn.to_string().as_str());
+                percent_nations.push_str("%");
+            }
+            args::WebsiteFilter::DotNet => {
+                data = data
+                    .into_iter()
+                    .filter(|n| n.website.ends_with(".net"))
+                    .collect();
+
+                result.push_str("sites with dot net domains: ");
+                result.push_str(data.len().to_string().as_str());
+
+                let pw = data.len() * 100 / number_of_websites;
+                let pn = data.len() * 100 / number_of_nations;
+
+                percent_websites.push_str(pw.to_string().as_str());
+                percent_websites.push_str("%");
+                percent_nations.push_str(pn.to_string().as_str());
+                percent_nations.push_str("%");
+            }
+            args::WebsiteFilter::Http => {
+                data = data
+                    .into_iter()
+                    .filter(|n| n.website.starts_with("http:"))
+                    .collect();
+
+                result.push_str("sites with http: ");
+                result.push_str(data.len().to_string().as_str());
+
+                let pw = data.len() * 100 / number_of_websites;
+                let pn = data.len() * 100 / number_of_nations;
+
+                percent_websites.push_str(pw.to_string().as_str());
+                percent_websites.push_str("%");
+                percent_nations.push_str(pn.to_string().as_str());
+                percent_nations.push_str("%");
+            }
+            args::WebsiteFilter::Https => {
+                data = data
+                    .into_iter()
+                    .filter(|n| n.website.starts_with("https:"))
+                    .collect();
+
+                result.push_str("sites with https: ");
+                result.push_str(data.len().to_string().as_str());
+
+                let pw = data.len() * 100 / number_of_websites;
+                let pn = data.len() * 100 / number_of_nations;
+
+                percent_websites.push_str(pw.to_string().as_str());
+                percent_websites.push_str("%");
+                percent_nations.push_str(pn.to_string().as_str());
+                percent_nations.push_str("%");
+            }
+        }
+    }
+
+    println!("\n");
+    println!("{result}");
+    println!("percent of all websites: {percent_websites}");
+    println!("percent of all nations: {percent_nations}");
+}
+
 /// Take the JSON and do some simple analytics
 pub fn sites_with_nsngov() {
-    let str = fs::read_to_string("tribes.json").expect("Unable to read file");
+    let str = fs::read_to_string("tribes.json").expect("File ./tribes.json does not exist");
     let data: Vec<Nation> = serde_json::from_str(&str).unwrap();
 
     let mut number_of_nations = 0;
