@@ -1,4 +1,4 @@
-//! tgd - Tribal Government Directory
+//! tgd - tribal government directory
 //!
 //! A command line utility (cli) to query a directory of tribal governments
 //!
@@ -115,7 +115,7 @@ impl fmt::Display for FileExistsError {
     }
 }
 
-/// Go to the page for the tribal directory (https://www.ncai.org/tribal-directory?page=1)
+/// Go to the page for the tribal directory, <https://www.ncai.org/tribal-directory?page=1>,
 /// and output the data into a CSV file
 pub async fn scrape_tribal_dir(force_flag: bool) -> Result<(), Box<dyn Error>> {
     // Check if tribes.csv exists, if it does and user uses --force flag, remove it and create a new file, otherwise exit saying that the file already exists
