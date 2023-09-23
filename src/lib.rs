@@ -1,21 +1,34 @@
+//! tgd - Tribal Government Directory
+//!
+//! A command line utility (cli) to query a directory of tribal governments
+//!
+//! Examples:
+//! ```console
+//! $ tgd list # lists the names of all tribal governments
+//! $ tgd list --name Muscogee # lists tribal governments with given name
+//! $ tgd list --websites https # lists tribal governments who have https websites
+//! $ tgd --help # more details about how it works
+//! ```
+
 use cli_table::{format::Justify, Cell, Style, Table};
 use regex::Regex;
-use reqwest::StatusCode;
 use select::document::Document;
 use select::predicate::{Attr, Class, Name};
 use serde::{Deserialize, Serialize};
 use std::error::Error;
-use std::fs;
+use std::fmt;
+use std::path::Path;
+use tokio::fs;
 
 pub mod args;
 
-/// Scrape tribal information based on this HTML structure:
-///   <article class="clearfix"
-///     <h2> {name} <span> {specifier} </span> </h2>
-///     <p>  {contact} ... Recognition Status: {status: federal/state} </p>
-///     <p class="right"> {address} ... Website: {website} </p>
-///   </article>
-pub fn select_html(res: &str) -> Vec<Vec<String>> {
+// Scrape tribal information based on this HTML structure:
+//   <article class="clearfix"
+//     <h2> {name} <span> {specifier} </span> </h2>
+//     <p>  {contact} ... Recognition Status: {status: federal/state} </p>
+//     <p class="right"> {address} ... Website: {website} </p>
+//   </article>
+fn select_html(res: &str) -> Vec<Vec<String>> {
     let document = Document::from(res);
     let articles = document
         .find(Name("article"))
@@ -91,11 +104,30 @@ pub fn select_html(res: &str) -> Vec<Vec<String>> {
     chunks
 }
 
+#[derive(Debug)]
+struct FileExistsError;
+
+impl Error for FileExistsError {}
+
+impl fmt::Display for FileExistsError {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "The file ./tribes.csv already exits. If you want to overwrite this file use `tgd update --force`")
+    }
+}
+
 /// Go to the page for the tribal directory (https://www.ncai.org/tribal-directory?page=1)
-/// and output the data into a CSV
-pub async fn scrape_tribal_dir() -> Result<(), Box<dyn Error>> {
-    // Check if tribes.csv exists, if it does, remove it and create a new file
-    /* Create writer */
+/// and output the data into a CSV file
+pub async fn scrape_tribal_dir(force_flag: bool) -> Result<(), Box<dyn Error>> {
+    // Check if tribes.csv exists, if it does and user uses --force flag, remove it and create a new file, otherwise exit saying that the file already exists
+    let file_exists = Path::new("./tribes.csv").exists();
+
+    if file_exists && !force_flag {
+        return Err(Box::new(FileExistsError {}));
+    }
+
+    // Remove existing csv file
+    fs::remove_file("./tribes.csv").await?;
+
     println!("💻 Requesting tribal directory from https://naci.org/tribal-directory");
     let mut wtr = csv::WriterBuilder::new()
         .flexible(true)
@@ -161,6 +193,7 @@ pub fn list_govts() {
     println!("{}", t);
 }
 
+/// Filter the governments based on website filter, state, and name
 pub fn filter_govts(
     filter: &Option<args::WebsiteFilter>,
     state: &Option<String>,
@@ -246,6 +279,7 @@ pub fn filter_govts(
     println!("{}", t);
 }
 
+/// Get basic stats about each tribal government
 pub fn stats(filter: &Option<args::WebsiteFilter>) {
     let mut rdr = csv::Reader::from_path("./tribes.csv")
         .expect("File tribes.csv does not exist. Run ``tgd update`");
@@ -378,106 +412,4 @@ pub fn stats(filter: &Option<args::WebsiteFilter>) {
     println!("{result}");
     println!("percent of all websites: {percent_websites}");
     println!("percent of all nations: {percent_nations}");
-}
-
-/// Take the JSON and do some simple analytics
-pub fn sites_with_nsngov() {
-    let str = fs::read_to_string("tribes.json").expect("File ./tribes.json does not exist");
-    let data: Vec<Nation> = serde_json::from_str(&str).unwrap();
-
-    let mut number_of_nations = 0;
-    let mut number_of_websites = 0;
-    let mut number_of_websites_with_nsn = 0;
-    let mut number_of_https = 0;
-
-    for nation in data.iter() {
-        if nation.recognition == "Federal" {
-            number_of_nations += 1;
-
-            if !nation.website.is_empty() {
-                number_of_websites += 1;
-
-                if nation.website.starts_with("https") {
-                    number_of_https += 1;
-                }
-
-                if nation.website.contains(".gov") {
-                    number_of_websites_with_nsn += 1;
-                }
-            }
-        }
-    }
-
-    println!("nation: {number_of_nations}");
-    println!("with sites: {number_of_websites}",);
-    println!("with nsn-gov: {number_of_websites_with_nsn}",);
-    println!("with https: {number_of_https}",)
-}
-
-/// Go through the websites and see which ones work and which ones redirect
-pub async fn check_websites() -> Result<(), Box<dyn Error>> {
-    let str = fs::read_to_string("tribes.json").expect("Unable to read file");
-    let data: Vec<Nation> = serde_json::from_str(&str).unwrap();
-
-    for nation in data.iter() {
-        let site = &nation.website;
-
-        if site.is_empty() {
-            continue;
-        }
-
-        if nation.recognition != "Federal" {
-            continue;
-        }
-
-        let res = reqwest::get(site).await;
-
-        match res {
-            Ok(resp) => {
-                let status = resp.status();
-                let headers = resp.headers();
-
-                match status {
-                    StatusCode::MOVED_PERMANENTLY => {
-                        let location = headers.get("Location").unwrap().to_str().unwrap();
-                        println!("site: {site}, status: Moved Permanently, location: {location}");
-                    }
-                    StatusCode::TEMPORARY_REDIRECT => {
-                        let location = headers.get("Location").unwrap().to_str().unwrap();
-                        println!("site: {site}, status: Temporary Redirect, location: {location}");
-                    }
-                    StatusCode::PERMANENT_REDIRECT => {
-                        let location = headers.get("Location").unwrap().to_str().unwrap();
-                        println!("site: {site}, status: Permanent Redirect, location: {location}");
-                    }
-                    StatusCode::BAD_GATEWAY => {
-                        println!("site: {site}, status: Bad Gateway");
-                    }
-                    StatusCode::BAD_REQUEST => {
-                        println!("site: {site}, status: Bad Request");
-                    }
-                    StatusCode::GATEWAY_TIMEOUT => {
-                        println!("site: {site}, status: Gateway Timeout");
-                    }
-                    StatusCode::INTERNAL_SERVER_ERROR => {
-                        println!("site: {site}, status: Internal Server Error");
-                    }
-                    StatusCode::SERVICE_UNAVAILABLE => {
-                        println!("site: {site}, status: Service Unavailable");
-                    }
-                    StatusCode::OK => continue,
-                    _ => {
-                        println!("site: {site}, status: {status}");
-                    }
-                }
-            }
-            Err(err) => {
-                let str_err = err.to_string();
-                println!("site: {site}, error: {str_err}");
-                continue;
-            }
-        }
-    }
-
-    Ok(())
 }
