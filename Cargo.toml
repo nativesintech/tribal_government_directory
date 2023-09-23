@@ -6,6 +6,7 @@ repository = "https://github.com/nativesintech/tribal_government_directory"
 readme = "./README.md"
 documentation = "https://docs.rs/tgd"
 keywords = "natives in tech,indigenous,indigenous tech, native tech"
+license = "GNU GENERAL PUBLIC LICENSE"
 version = "0.1.0"
 edition = "2021"
 
