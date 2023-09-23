@@ -5,10 +5,11 @@ homepage = "https://github.com/nativesintech/tribal_government_directory"
 repository = "https://github.com/nativesintech/tribal_government_directory"
 readme = "./README.md"
 documentation = "https://docs.rs/tgd"
-keywords = "natives in tech,indigenous,indigenous tech, native tech"
+keywords = ["natives in tech", "indigenous", "indigenous tech", "native tech"]
 license = "GNU GENERAL PUBLIC LICENSE"
 version = "0.1.0"
 edition = "2021"
+exclude = ["tribes.json", "broken-sites.txt"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
